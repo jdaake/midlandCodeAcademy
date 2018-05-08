@@ -1,0 +1,5 @@
+Download and setup the AtomIDE, signup for Slack and signup for GitHub you'll be needing those throughout the course.
+
+If you want to, buy the book from the syllabus but it is not required. Prepare to hit the ground running.
+
+Don't be afraid to ask questions, it's going to be tough: some parts more than others.
