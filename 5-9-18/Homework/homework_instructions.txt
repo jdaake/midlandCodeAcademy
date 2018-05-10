@@ -1,0 +1,20 @@
+(if you want more practice with linkning inside a page, have a link at the top that goes directly to the form below)
+
+Build a Page with a table listing at least 5 of your skills (real or made up)
+(if you want more practice, have each of these link to a website)
+in a table with your current proficiency level. Can be vertical or
+horizontal whichever you'd prefer
+
+Below that table have a separate table listing your current availability, Sunday-Saturday morning, afternoon, and evening.
+Have the cells span multiple rows or columns depending on availability with both a legend at the top and left
+
+Below that, have a form to allow for clients to contact you. Have a name, email, type of work required (select box: "Full Time", "Part Time", "Contract",
+ "Contract to Hire") All items should have labels and the two text fields should have placeholders.
+ preference for contact time (radio Morning Afternoon Evening) and what technologies they'd like to use (checkboxes at least 4).
+
+ADD THIS TO INSIDE THE <head> tag:
+<style>th, td:not(:empty){border: 1px solid black; text-align: center; } </style>
+
+BONUS: Add an audio clip (with controls) on the page as an introduction. This can be a recorded audio or a link to a random file.
+In the form, Start with "Evening" and "Contract" selected in the appropriate fields.
+
