@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>th, td:not(:empty){border: 1px solid black; text-align: center; } </style>
+    <meta charset="UTF-8">
+    <title>Skills and Availability</title>
+</head>
+<body>
+<header>
+    <h1> Current Skills and Availability</h1>
+    <p>Need Help?</p>
+    <audio src="../../Solution/yes.mp3" controls></audio>
+</header>
+<div>
+    <table>
+        <caption><h3>Current Skills</h3></caption>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Payday 2</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>Spanish</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Juggling</td>
+                <td>Beginner</td>
+            </tr>
+    </table>
+</div>
+<div>
+    <table>
+        <caption><h3>Current Availability</h3></caption>
+        <tr>
+            <td></td>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td rowspan="3">Unavailable</td>
+            <td colspan="5" rowspan="2">Work</td>
+            <td rowspan="3">Unavailable</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Free</td>
+            <td colspan="3">Teaching</td>
+            <td>Free</td>
+        </tr>
+    </table>
+</div>
+
+<form>
+    <h3>Contact Me:</h3>
+    <fieldset>
+        <legend>Info</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name">
+        <label for="email">Email:</label>
+        <input type="email" id="email"placeholder="Email@example.com">
+    </fieldset>
+        <label for="typeOfWork">Type of Employment</label>
+        <select name="typeOfWork" id="typeOfWork">
+            <option>Full-time</option>
+            <option>Part-time</option>
+            <option selected="selected" aria-selected="true">Contract</option>
+            <option>Contract to Hire</option>
+        </select>
+    <fieldset>
+        <legend>Preferred Contact Time:</legend>
+        <input type="radio" name="contactTime" id="morningRadio" value="morning">
+        <label for="morningRadio">Morning</label>
+        <input type="radio" name="contactTime" id="afternoonRadio" value="afternoon">
+        <label for="afternoonRadio">Afternoon</label>
+        <input type="radio" name="contactTime" id="eveningRadio" value="evening" checked="checked">
+        <label for="eveningRadio">Evening</label>
+    </fieldset>
+        <fieldset>
+            <legend>Technologies Used:</legend>
+            <input type="checkbox" name="techUsed" id="css" value="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="techUsed" id="html" value="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" name="techUsed" id="javascript" value="javascript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" name="techUsed" id="angular" value="angular">
+            <label for="angular">Angular</label>
+            <input type="checkbox" name="techUsed" id="react" value="react">
+            <label for="react">React</label>
+            <input type="checkbox" name="techUsed" id="wizardy" value="wizardry">
+            <label for="wizardy">Wizardry</label>
+        </fieldset>
+        <input type="submit" value="Contact">
+</form>
+
+
+
+</body>
+</html>

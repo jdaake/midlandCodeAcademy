@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Build this Table</title>
+    <style>th, td:not(:empty){border: 1px solid black; text-align: center; } </style>
+</head>
+<body>
+
+<h1>Financial Performance Q1:</h1>
+
+<table>
+    <caption>Market</caption>
+    <thead>
+    <tr>
+        <th>Item</th>
+        <th>Asia</th>
+        <th>Europe</th>
+        <th>Africa</th>
+        <th>Canada</th>
+        <th>US</th>
+        <th>Mexico</th>
+        <th>South America</th>
+        <th>Australia</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Toys</th>
+        <td colspan="2">N/A</td>
+        <td>500 units</td>
+        <td rowspan="3">N/A</td>
+        <td>5000 units</td>
+        <td>7000 units</td>
+        <td>5 units</td>
+        <td>200000 units</td>
+    </tr>
+    <tr>
+        <th>Cars</th>
+        <td>8 units</td>
+        <td>300 units</td>
+        <td>50 units</td>
+        <td>1000 units</td>
+        <td colspan="3">N/A</td>
+    </tr>
+    <tr>
+        <th>Medicine</th>
+        <td colspan="2">N/A</td>
+        <td>6000 units</td>
+        <td>8mil units</td>
+        <td colspan="2" rowspan="3">N/A</td>
+        <td>68 units</td>
+    </tr>
+    <tr>
+        <th>Industrial Goods</th>
+        <td>500 units</td>
+        <td colspan="2" rowspan="2">N/A</td>
+        <td>6mil units</td>
+        <td>80mil units</td>
+        <td>1000 units</td>
+    </tr>
+    <tr>
+        <th>Tools</th>
+        <td>600 units</td>
+        <td>80 units</td>
+        <td>80000 units</td>
+        <td>800 units</td>
+    </tr>
+    <tr>
+        <th>Raw Materials</th>
+        <td colspan="5">N/A</td>
+        <td colspan="2">800 units</td>
+        <td>90units</td>
+
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th>TOTALS</th>
+        <td>1108 units</td>
+        <td>300 units</td>
+        <td>6550 units</td>
+        <td>6000080 units</td>
+        <td>88086000 units</td>
+        <td>7400 units</td>
+        <td>405 units</td>
+        <td>201958 units</td>
+    </tr>
+    </tfoot>
+</table>
+
+<h1>Request More Information</h1>
+<form>
+    <h4>Contact Info</h4>
+    <label for="name">Name:</label>
+    <input name="name" id="name" placeholder="name" type="text">
+    <label for="email">Email:</label>
+    <input name="email" id="email" placeholder="email" type="text">
+
+    <h4>Market Requested:</h4>
+    <label for="market">Market:</label>
+    <select id="market" name="market">
+        <option value="asia">Asia</option>
+        <option value="europe">Europe</option>
+        <option value="africa">Africa</option>
+        <option value="canada">Canada</option>
+        <option value="us" selected>United States</option>
+        <option value="mexico">Mexico</option>
+        <option value="southAmerica">South America</option>
+        <option value="australia">Australia</option>
+    </select>
+    <h4>Item(s) Requested:</h4>
+    <input type="checkbox" name="item" value="toys" id="item1">
+    <label for="item1">Toys</label>
+    <input type="checkbox" name="item" value="cars" id="item2">
+    <label for="item2">Cars</label>
+    <input type="checkbox" name="item" value="medicine" id="item3">
+    <label for="item3">Medicine</label>
+    <input type="checkbox" name="item" value="industrialgoods" id="item4">
+    <label for="item4">Industrial Goods</label>
+    <input type="checkbox" name="item" value="tools" id="item5">
+    <label for="item5">Tools</label>
+    <input type="checkbox" name="item" value="rawmaterials" id="item6">
+    <label for="item6">Raw Materials</label>
+    <p>Please allow 24 hours for processing of the request</p>
+    <input type="submit" value="Request Information">
+</form>
+
+
+</body>
+</html>
