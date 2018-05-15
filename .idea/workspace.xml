@@ -18,53 +18,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicAboutPageSolution.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-15-18/Solution/BasicAboutPageSolution.html">
+      <file leaf-file-name="NewsAndUpdatesSolution.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-16-18/Solution/NewsAndUpdatesSolution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="620">
+              <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntroToCss.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-10-18/Lesson/IntroToCss.html">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-16-18/Solution/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Borders.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/Borders.html">
+      <file leaf-file-name="DisplayOptions.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/DisplayOptions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoxModel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/BoxModel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="682">
+              <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -74,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/5-10-18/Homework/homework_instructions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="545">
-                <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <first_editor relative-caret-position="391">
+                <caret line="23" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -83,38 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeworkMockup.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5-10-18/Homework/homeworkMockup.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicSkillsAndContactSolution.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-10-18/Classwork/Navigation Example/BasicSkillsAndContactSolution.html">
+      <file leaf-file-name="IntroToCss.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-10-18/Lesson/IntroToCss.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicSkillsAndContactSolution.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-10-18/Solution/BasicSkillsAndContactSolution.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicSkillsAndContactSolution.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5-15-18/Solution/BasicSkillsAndContactSolution.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="133" column="115" lean-forward="false" selection-start-line="133" selection-start-column="115" selection-end-line="133" selection-end-column="115" />
+            <state relative-caret-position="272">
+              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -140,6 +91,14 @@
       <find>&lt;div</find>
       <find>contanier</find>
       <find>&lt;/td&gt;</find>
+      <find>red</find>
+      <find>;</find>
+      <find>H</find>
+      <find>R{</find>
+      <find>);</find>
+      <find>R</find>
+      <find>)</find>
+      <find>style=&quot;margin:auto;&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>html</replace>
@@ -155,6 +114,18 @@
       <replace>&lt;div class=&quot;contanier&quot;</replace>
       <replace>container</replace>
       <replace>units&lt;/td&gt;</replace>
+      <replace>orange</replace>
+      <replace>yellow</replace>
+      <replace>green</replace>
+      <replace>blue</replace>
+      <replace>indigo</replace>
+      <replace>violet</replace>
+      <replace>Hs</replace>
+      <replace>RA{</replace>
+      <replace>,.5);</replace>
+      <replace>rgba</replace>
+      <replace>RA</replace>
+      <replace>, .5)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,11 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5-10-18/Homework.html" />
-        <option value="$PROJECT_DIR$/5-10-18/Homework From 5-9-18/Homework.html" />
-        <option value="$PROJECT_DIR$/5-10-18/Lesson/Wk1 Day 3 Example.html" />
-        <option value="$PROJECT_DIR$/5-15-18/Solution/Solution.html" />
-        <option value="$PROJECT_DIR$/6-5-18/Lesson/ObjectTraversal.html" />
         <option value="$PROJECT_DIR$/6-5-18/Homework/homework.txt" />
         <option value="$PROJECT_DIR$/6-6-18/Solution/ReviewVariableTypes.txt" />
         <option value="$PROJECT_DIR$/6-5-18/Lesson/IntroToJS.html" />
@@ -201,13 +167,24 @@
         <option value="$PROJECT_DIR$/5-10-18/Homework/homework_instructions.md" />
         <option value="$PROJECT_DIR$/5-15-18/Solution/NewsAndUpdates.html" />
         <option value="$PROJECT_DIR$/5-15-18/Solution/BasicSkillsAndContactSolution.html" />
-        <option value="$PROJECT_DIR$/5-15-18/Solution/BasicAboutPageSolution.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/5-15-18/Lesson/BoxSizing.html" />
         <option value="$PROJECT_DIR$/5-10-18/Solution/BasicSkillsAndContactSolution.html" />
-        <option value="$PROJECT_DIR$/5-15-18/Lesson/Borders.html" />
         <option value="$PROJECT_DIR$/5-15-18/Lesson/MarginsAndPadding.html" />
         <option value="$PROJECT_DIR$/5-15-18/Lesson/BoxModel.html" />
+        <option value="$PROJECT_DIR$/5-15-18/Lesson/DifferentSizeOptions.html" />
+        <option value="$PROJECT_DIR$/5-15-18/Lesson/Borders.html" />
+        <option value="$PROJECT_DIR$/5-15-18/Lesson/ColorDeclarations.html" />
+        <option value="$PROJECT_DIR$/5-16-18/Solution/BasicAboutPageSolution.html" />
+        <option value="$PROJECT_DIR$/5-15-18/Solution/NewsAndUpdatesSolution.html" />
+        <option value="$PROJECT_DIR$/5-15-18/Solution/BasicAboutPageSolution.html" />
+        <option value="$PROJECT_DIR$/5-16-18/Solution/NewsAndUpdatesSolution.html" />
+        <option value="$PROJECT_DIR$/5-16-18/Solution/styles.css" />
+        <option value="$PROJECT_DIR$/5-15-18/test" />
+        <option value="$PROJECT_DIR$/5-15-18/test2.html" />
+        <option value="$PROJECT_DIR$/5-15-18/Homework/homework-instructions.md" />
+        <option value="$PROJECT_DIR$/5-15-18/Homework/homework.md" />
+        <option value="$PROJECT_DIR$/5-15-18/Lesson/DisplayOptions.html" />
       </list>
     </option>
   </component>
@@ -239,8 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,6 +257,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-16-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Solution" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,6 +492,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,11 +509,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-16-18\Solution" />
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-15-18\Lesson" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-10-18\Homework" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-10-18\Solution" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-15-18\Solution" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-10-18\Classwork\Navigation Example" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-10-18\Classwork" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-10-18\Classwork\Navigation Example" />
@@ -528,20 +523,20 @@
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-9-18\Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.NewsAndUpdatesSolution.html">
-    <configuration default="false" name="BasicAboutPageSolution.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Solution/BasicAboutPageSolution.html">
+  <component name="RunManager" selected="JavaScript Debug.DisplayOptions.html">
+    <configuration default="false" name="ColorDeclarations.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Lesson/ColorDeclarations.html">
       <method />
     </configuration>
-    <configuration default="false" name="Borders.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Lesson/Borders.html">
+    <configuration default="false" name="NewsAndUpdatesSolution.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-16-18/Solution/NewsAndUpdatesSolution.html">
       <method />
     </configuration>
-    <configuration default="false" name="MarginsAndPadding.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Lesson/MarginsAndPadding.html">
+    <configuration default="false" name="test" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/test">
       <method />
     </configuration>
-    <configuration default="false" name="BoxModel.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Lesson/BoxModel.html">
+    <configuration default="false" name="test2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/test2.html">
       <method />
     </configuration>
-    <configuration default="false" name="NewsAndUpdatesSolution.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Solution/NewsAndUpdatesSolution.html">
+    <configuration default="false" name="DisplayOptions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-15-18/Lesson/DisplayOptions.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -604,19 +599,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.BasicAboutPageSolution.html (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Borders.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.MarginsAndPadding.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.BoxModel.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.NewsAndUpdatesSolution.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ColorDeclarations.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.NewsAndUpdatesSolution.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DisplayOptions.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.NewsAndUpdatesSolution.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.BoxModel.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.MarginsAndPadding.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Borders.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.BasicAboutPageSolution.html (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DisplayOptions.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.test2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.NewsAndUpdatesSolution.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ColorDeclarations.html" />
       </list>
     </recent_temporary>
   </component>
@@ -638,12 +633,15 @@
       <workItem from="1525891593351" duration="2794000" />
       <workItem from="1525919254548" duration="1361000" />
       <workItem from="1525971344560" duration="10995000" />
-      <workItem from="1526250525812" duration="677000" />
+      <workItem from="1526250525812" duration="1268000" />
+      <workItem from="1526324276689" duration="3902000" />
+      <workItem from="1526335284948" duration="1009000" />
+      <workItem from="1526408842899" duration="7375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49653000" />
+    <option name="totallyTimeSpent" value="62530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -653,18 +651,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,77 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/6-7-18/Lesson/exampleJS2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-7-18/Lesson/exampleJS3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-7-18/Solution/NameAndNumberThreeWays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-12-18/Solution/FunctionalFun.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Solution/Homework.html" />
-    <entry file="file://$PROJECT_DIR$/5-9-18/Solution/BasicAboutPageSolution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-5-18/Homework/homework.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="66" lean-forward="false" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-5-18/Lesson/ObjectTraversal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="43" lean-forward="false" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-6-18/Lesson/UsefulPrototypes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="54" lean-forward="false" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-6-18/Lesson/Comparisons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6-7-18/Solution/NameAndNumberThreeWays.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/6-7-18/Lesson/exampleJS1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -850,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/IntroToCSSReview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-8-18/Lesson/BasicHTMLTags.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -920,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Solution/example.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-10-18/Classwork/homework_instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -941,35 +854,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Solution/NewsAndUpdatesSolution.html">
+    <entry file="file://$PROJECT_DIR$/5-10-18/Classwork/Navigation Example/BasicSkillsAndContactSolution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="114" column="8" lean-forward="false" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="115" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-10-18/Solution/BasicSkillsAndContactSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/MarginsAndPadding.html" />
+    <entry file="file://$PROJECT_DIR$/5-15-18/Solution/example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-10-18/Homework/homeworkMockup.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/BoxModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/IntroToCssReview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/DifferentSizeOptions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/Borders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/ColorDeclarations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3145">
+          <caret line="185" column="43" lean-forward="false" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-16-18/Solution/BasicSkillsAndContactSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="12" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5-15-18/Solution/BasicSkillsAndContactSolution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
+        <state relative-caret-position="884">
           <caret line="133" column="115" lean-forward="false" selection-start-line="133" selection-start-column="115" selection-end-line="133" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Solution/NewsAndUpdatesSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5-15-18/Solution/BasicAboutPageSolution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="229">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/5-16-18/Solution/BasicAboutPageSolution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -982,59 +978,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-10-18/Classwork/Navigation Example/BasicSkillsAndContactSolution.html">
+    <entry file="file://$PROJECT_DIR$/5-16-18/Solution/NewsAndUpdatesSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="122" column="7" lean-forward="false" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-16-18/Solution/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-10-18/Solution/BasicSkillsAndContactSolution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/Borders.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="38" lean-forward="false" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/MarginsAndPadding.html" />
-    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/BoxModel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5-10-18/Homework/homework_instructions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="23" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Homework/homework-instructions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="545">
-            <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-10-18/Homework/homeworkMockup.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/5-15-18/Homework/homework.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/DisplayOptions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="59" column="4" lean-forward="false" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
