@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3 x 3 Grid</title>
+    <style>
+        div{
+            /*float: left;*/
+            width: 31vw;
+            height: 31vw;
+            display: inline-block;
+        }
+        div:nth-child(odd){
+            background-color: red;
+        }
+        div:nth-child(3n+1){
+            /*clear: left;*/
+        }
+        div:nth-child(even){
+            background-color: blue;
+        }
+        div:nth-child(odd):not(:nth-child(5)){
+            border: .25vw solid black;
+            height: 30.5vw;
+            width: 30.5vw;
+        }
+
+    </style>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</body>
+</html>
