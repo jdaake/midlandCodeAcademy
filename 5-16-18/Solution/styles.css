@@ -1,0 +1,134 @@
+/*ELEMENTS*/
+*{
+    background-color: whitesmoke;
+}
+
+section, article, nav, footer, header{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*MENUS AND LINKS*/
+.menu{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.link{
+    line-height: 30px;
+    display: inline-block;
+    width: calc(33% - 2px);
+    height: 30px;
+    background-color: #0088FF;
+    color: white;
+    border: 1px solid black;
+
+}
+
+.link.active{
+    background-color: #154ca5;
+}
+
+.link:not(.active):hover{
+    background-color: white;
+    color: #154ca5;
+
+}
+
+.toTop{
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #0088FF;
+    padding: 5px;
+    background-color: white;
+}
+
+/*TYPOGRAPHY*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI", "Helvetica Neue", sans-serif;
+
+}
+
+.subHeading{
+    text-shadow: #0088FF 1px 1px;
+}
+
+.mainHeading{
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #0088FF;
+    text-shadow: black 2px 2px;
+}
+
+.center{
+    text-align: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*CONTAINERS*/
+
+.section{
+    width: 95%;
+    margin: auto;
+    border-bottom: 2px solid black;
+}
+
+.paragraph{
+    margin: 10px 2%;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.iconContainer{
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.list{
+    width: 90%;
+    margin: auto;
+}
+
+/*IMAGES*/
+.headerImage{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 300px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+@media(min-width: 1000px){
+    .menu{
+        border: none;
+    }
+    .section{
+        display: inline-block;
+        width: 45.5%;
+        margin: 2%;
+        border-top: 2px solid black;
+    }
+    .section:last-child:not(:nth-child(even)){
+        width: 95%;
+    }
+
+}
