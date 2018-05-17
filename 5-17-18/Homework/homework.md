@@ -1,7 +1,7 @@
 ##Build the site based off the mockup image attached 
 
 ###Required Steps:
- * Utilize File (mockupFullscreen.png) for all styling choices with the page.
+ * Utilize File (fullSizeMockup.png) for all styling choices with the page.
  * The menu should be fixed to the top as you scroll through the page.
  * All classes and styles should be built for re-usability where possible and following DRY practices.
  * If you feel you want more practice with HTML build the site from scratch including all HTML
@@ -14,7 +14,7 @@
  
  ###Bonus Steps (recommended for practice)
  * Put in a media query to allow for the page to be displayed differently at smaller resolutions (use 800px as a breakpoint)
- * Follow mockupSmallscreen.png for how it should look at smaller resolutions.
+ * Follow smallSizeMockup.png for how it should look at smaller resolutions.
  * Make the footer background image have an opacity of .5 but keep the text inside the footer at an opacity of 1.
  * Utilize the google fonts api for h1-h6 fonts
  

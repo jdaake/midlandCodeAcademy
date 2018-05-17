@@ -28,12 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homework.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/5-17-18/Homework/homework.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
+            <state split_layout="FIRST">
               <first_editor relative-caret-position="357">
-                <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+                <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -41,11 +41,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="homeworkHTMLOnly.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="77" lean-forward="true" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="homework.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5-22-18/Solution/homework.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="2142">
+              <caret line="126" column="73" lean-forward="false" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -88,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -101,8 +111,8 @@
       <file leaf-file-name="homework.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5-22-18/Solution/homework.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="169" column="22" lean-forward="false" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+            <state relative-caret-position="433">
+              <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -233,14 +243,14 @@
         <option value="$PROJECT_DIR$/6-13-18/Solution/solution.js" />
         <option value="$PROJECT_DIR$/5-17-18/Classwork/MoreFloatsPractice.html" />
         <option value="$PROJECT_DIR$/5-17-18/Classwork/floatsPractice.css" />
-        <option value="$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html" />
-        <option value="$PROJECT_DIR$/5-17-18/Homework/homework.md" />
-        <option value="$PROJECT_DIR$/5-22-18/Solution/homework.html" />
-        <option value="$PROJECT_DIR$/5-22-18/Solution/homework.css" />
         <option value="$PROJECT_DIR$/5-17-18/Lesson/FontsFontsFonts.html" />
         <option value="$PROJECT_DIR$/5-17-18/Lesson/DifferentFonts.html" />
         <option value="$PROJECT_DIR$/5-17-18/Lesson/TextChanges.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/5-22-18/Solution/homework.css" />
+        <option value="$PROJECT_DIR$/5-22-18/Solution/homework.html" />
+        <option value="$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html" />
+        <option value="$PROJECT_DIR$/5-17-18/Homework/homework.md" />
       </list>
     </option>
   </component>
@@ -251,9 +261,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="740" />
+    <option name="y" value="75" />
+    <option name="width" value="1375" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -666,17 +676,14 @@
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-10-18\Homework" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-17-18\Homework" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-31-18" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-30-18" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-29-18" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-23-18" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="NewsAndUpdatesSolution.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-16-18/Solution/NewsAndUpdatesSolution.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.homeworkHTMLOnly.html">
     <configuration default="false" name="MoreFloatsPractice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-17-18/Classwork/MoreFloatsPractice.html">
       <method />
     </configuration>
@@ -687,6 +694,9 @@
       <method />
     </configuration>
     <configuration default="false" name="DifferentFonts.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-17-18/Lesson/DifferentFonts.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="homeworkHTMLOnly.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-17-18/Homework/homeworkHTMLOnly.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -749,19 +759,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.NewsAndUpdatesSolution.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.MoreFloatsPractice.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.homework.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TextChanges.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DifferentFonts.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.MoreFloatsPractice.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.homework.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TextChanges.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DifferentFonts.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.homeworkHTMLOnly.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TextChanges.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DifferentFonts.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.homework.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.MoreFloatsPractice.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.NewsAndUpdatesSolution.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.homeworkHTMLOnly.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.homework.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TextChanges.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DifferentFonts.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.MoreFloatsPractice.html" />
       </list>
     </recent_temporary>
   </component>
@@ -790,18 +800,18 @@
       <workItem from="1526480490220" duration="12085000" />
       <workItem from="1526505200862" duration="95000" />
       <workItem from="1526505922468" duration="1585000" />
-      <workItem from="1526568080898" duration="16539000" />
+      <workItem from="1526568080898" duration="19251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93551000" />
+    <option name="totallyTimeSpent" value="96263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="740" y="75" width="1375" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1141,41 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-17-18/Homework/homework.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="77" lean-forward="true" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-22-18/Solution/homework.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="169" column="22" lean-forward="false" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-22-18/Solution/homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-17-18/Lesson/DifferentFonts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1211,9 +1186,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-22-18/Solution/homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-22-18/Solution/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="73" lean-forward="false" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="77" lean-forward="true" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-17-18/Homework/homework.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
