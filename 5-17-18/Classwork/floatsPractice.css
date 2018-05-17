@@ -1,0 +1,60 @@
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.center{
+    text-align: center;
+}
+
+.menu{
+    float: left;
+    width: 25%;
+}
+.link{
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+    background-color: orange;
+    text-decoration: none;
+}
+.active{
+    background-color: #154ca5;
+    color: white;
+}
+
+.footer{
+    clear: both;
+    margin-top: 25px;
+}
+.board{
+    float: left;
+    width: 75%;
+}
+
+.box{
+    padding-top: 30%;
+    width: 30%;
+    float: left;
+    background-color: #0088FF;
+    border: .5px solid black;
+    position: relative;
+}
+
+.box:nth-child(3n+4){
+    clear: left;
+}
+.box:nth-child(1){
+    border-top-left-radius: 10px;
+}
+.box:nth-child(3){
+    border-top-right-radius: 10px;
+}
+.box:nth-child(7){
+    border-bottom-left-radius: 10px;
+}
+.box:nth-child(9){
+    border-bottom-right-radius: 10px;
+}

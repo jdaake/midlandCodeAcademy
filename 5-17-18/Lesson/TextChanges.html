@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font Styling Options</title>
+    <style>
+        body{
+            margin: 0;
+            overflow-x: hidden;
+        }
+        .fontSize {
+            font-size: 16px;
+        }
+
+        .fontWeight {
+            font-weight: inherit;
+        }
+
+        p {
+            padding: 10px;
+            width: 87%;
+            margin: auto;
+        }
+
+        .textAlign {
+            text-align: inherit;
+        }
+
+        .textTransform {
+            text-transform: none;
+        }
+
+        .textIndent {
+            text-indent: 10px;
+        }
+
+        input:not([type="radio"]) {
+            display: block;
+            margin: auto;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        ul {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            text-align: center;
+            list-style-type: none;
+            float: left;
+            padding: 0;
+        }
+
+        h3.leadingExample {
+            border: 2px solid black;
+            display: block;
+            height: 50px;
+        }
+
+        .leadingExample {
+            text-align: center;
+            clear: both;
+            line-height: 50px;
+        }
+
+        .noLeading {
+            line-height: normal;
+        }
+        .menu{
+            width: 100%;
+            float: left;
+        }
+        .link{
+            display: block;
+            float: left;
+            cursor: pointer;
+            text-align: center;
+            width: 25%;
+            height: 50px;
+            line-height: 50px;
+            background-color: slategray;
+            color: white;
+        }
+        .link:hover:not(.active){
+            background-color: white;
+            color: slategray;
+        }
+        .active{
+            background-color: black;
+        }
+
+        .container{
+            padding: 1%;
+            background-color: white;
+            z-index: 1;
+            width: 98%;
+            position: absolute;
+            top: 50px;
+            transition: all 250ms;
+            left: 100%
+        }
+        .activeContainer{
+            background-color: white;
+            z-index: 2;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<nav class="menu">
+    <a class="link active" onclick="transitionTo(event, 'SandW')">Size and Weight</a>
+    <a class="link" onclick="transitionTo(event, 'AandT')">Align and Transform</a>
+    <a class="link" onclick="transitionTo(event, 'Leading')">Leading</a>
+    <a class="link" onclick="transitionTo(event, 'IndentEtc')">Indent Etc.</a>
+</nav>
+<div class="container activeContainer" id="SandW">
+<h1 class="center">Font Sizes</h1>
+<input id="fontSizeSelector" type="range" min="1" max="100" step="1" value="16">
+<p class="fontSize center" id="fontSize">This is a font with a size of <span id="fontSizeVal">16</span>px</p>
+
+
+<h1 class="center">Font Weight</h1>
+<div style="width: 250px; margin: auto">
+    <input type="radio" value="inherit" name="fontWeight" id="fontWeight0" checked="checked"><label for="fontWeight0">Inherit</label>
+    <input type="radio" value="bold" name="fontWeight" id="fontWeight1"><label for="fontWeight1">Bold</label>
+    <input type="radio" value="lighter" name="fontWeight" id="fontWeight2"><label for="fontWeight2">Lighter</label>
+</div>
+<p class="center fontWeight" id="fontWeightContainer">
+    Cras eu cursus turpis. Cras quis eleifend nibh. Sed id laoreet libero. Integer sed mi massa. Maecenas dapibus, augue
+    et consequat eleifend, ante sapien viverra lectus, faucibus bibendum dolor ipsum in lacus. Pellentesque dapibus
+    massa tellus, eget vehicula nisl vehicula nec. Donec vestibulum sapien nec neque feugiat hendrerit.
+
+</p>
+</div>
+<div class="container" id="AandT">
+<h1 class="center">Text-Align Options</h1>
+<div style="width: 350px; margin: auto">
+    <input type="radio" value="center" name="textAlign" id="texAlign0" checked="checked"><label
+        for="texAlign0">Inherit</label>
+    <input type="radio" value="center" name="textAlign" id="texAlign1"><label for="texAlign1">Center</label>
+    <input type="radio" value="left" name="textAlign" id="texAlign2"><label for="texAlign2">Left</label>
+    <input type="radio" value="right" name="textAlign" id="texAlign3"><label for="texAlign3">Right</label>
+    <input type="radio" value="justify" name="textAlign" id="texAlign4"><label for="texAlign4">Justify</label>
+</div>
+<p class="textAlign" id="textAlignContainer">Cras eu cursus turpis. Cras quis eleifend nibh. Sed id laoreet libero.
+    Integer sed mi massa. Maecenas dapibus, augue et consequat eleifend, ante sapien viverra lectus, faucibus bibendum
+    dolor ipsum in lacus. Pellentesque dapibus massa tellus, eget vehicula nisl vehicula nec. Donec vestibulum sapien
+    nec neque feugiat hendrerit.
+
+    Mauris et quam posuere, fringilla felis sit amet, varius leo. Ut ut dolor orci. Fusce sed mauris sodales, imperdiet
+    elit id, fermentum orci. Pellentesque sagittis sed nunc non dignissim. Pellentesque et enim eget eros pharetra
+    porttitor consectetur et purus. Donec convallis aliquet diam, ac dignissim turpis mollis et. Etiam in ipsum
+    vestibulum, feugiat magna at, tincidunt eros. Suspendisse eu faucibus diam, nec dignissim neque. Nam viverra in
+    dolor vel placerat. Morbi quis mattis ex, sed egestas enim. Vestibulum rutrum luctus urna, varius congue libero
+    fermentum sed. Donec porta turpis turpis, eget aliquet est vehicula sed. Praesent ac finibus est. Cras convallis,
+    tellus non scelerisque vestibulum, est sapien auctor ipsum, id condimentum velit purus a velit.
+
+    Aenean laoreet fringilla leo, sit amet iaculis felis tincidunt ac. Vivamus cursus imperdiet dolor, in ultrices ipsum
+    luctus vel. Nullam at magna in eros faucibus feugiat. Quisque ornare pharetra odio eu luctus. Pellentesque luctus
+    sodales posuere. Sed at ligula felis. In fermentum metus dapibus, dictum tortor eu, porttitor massa. Integer eu
+    dolor non ligula placerat condimentum. In tincidunt felis varius justo sodales tincidunt. Sed accumsan velit a
+    tellus bibendum tincidunt. Vestibulum bibendum, lorem non vestibulum vulputate, tellus purus fringilla metus, ac
+    auctor libero tortor et nulla. Donec imperdiet quis nunc sit amet finibus. Vestibulum facilisis lacus sem, quis
+    accumsan sapien finibus eu. Phasellus vitae tortor gravida, commodo lectus ut, tristique sem. Nam posuere magna nec
+    justo vulputate sollicitudin. Nullam quis urna lorem.
+
+    Aenean eu dapibus eros. Mauris ut sodales arcu. Maecenas venenatis scelerisque enim eu efficitur. Nulla facilisi.
+    Integer a rhoncus quam. Fusce luctus ex non fermentum bibendum. Proin tortor ex, accumsan non mattis ut, lobortis et
+    lorem. In lorem lorem, pharetra ut ipsum ac, rutrum gravida dolor. Pellentesque habitant morbi tristique senectus et
+    netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada
+    fames ac turpis egestas.</p>
+<h1 class="center">Text Transforms</h1>
+<div style="width: 400px; margin: auto">
+    <input type="radio" value="none" name="textTransform" id="texTransform0" checked="checked"><label
+        for="texTransform0">None</label>
+    <input type="radio" value="capitalize" name="textTransform" id="texTransform1"><label
+        for="texTransform1">Capitalize</label>
+    <input type="radio" value="uppercase" name="textTransform" id="texTransform2"><label
+        for="texTransform2">Uppercase</label>
+    <input type="radio" value="lowercase" name="textTransform" id="texTransform3"><label
+        for="texTransform3">Lowercase</label>
+</div>
+<p class="textTransform center" id="textTransformContainer">Cras eu cursus turpis. Cras quis eleifend nibh. Sed id
+    laoreet libero. Integer sed mi massa. Maecenas dapibus, augue et consequat eleifend, ante sapien viverra lectus,
+    faucibus bibendum dolor ipsum in lacus. Pellentesque dapibus massa tellus, eget vehicula nisl vehicula nec. Donec
+    vestibulum sapien nec neque feugiat hendrerit.</p>
+</div>
+<div class="container" id="IndentEtc">
+<h1 class="center">Text Indent of <span id="fontIndentVal">0</span>px </h1>
+<input id="textIndentSelector" type="range" min="0" max="50" step="1" value="0">
+<p class="textIndent" id="fontIndent">Cras eu cursus turpis. Cras quis eleifend nibh. Sed id laoreet libero. Integer sed
+    mi massa. Maecenas dapibus, augue et consequat eleifend, ante sapien viverra lectus, faucibus bibendum dolor ipsum
+    in lacus. Pellentesque dapibus massa tellus, eget vehicula nisl vehicula nec. Donec vestibulum sapien nec neque
+    feugiat hendrerit.
+
+    Mauris et quam posuere, fringilla felis sit amet, varius leo. Ut ut dolor orci. Fusce sed mauris sodales, imperdiet
+    elit id, fermentum orci. Pellentesque sagittis sed nunc non dignissim. Pellentesque et enim eget eros pharetra
+    porttitor consectetur et purus. Donec convallis aliquet diam, ac dignissim turpis mollis et. Etiam in ipsum
+    vestibulum, feugiat magna at, tincidunt eros. Suspendisse eu faucibus diam, nec dignissim neque. Nam viverra in
+    dolor vel placerat. Morbi quis mattis ex, sed egestas enim. Vestibulum rutrum luctus urna, varius congue libero
+    fermentum sed. Donec porta turpis turpis, eget aliquet est vehicula sed. Praesent ac finibus est. Cras convallis,
+    tellus non scelerisque vestibulum, est sapien auctor ipsum, id condimentum velit purus a velit.
+
+    Aenean laoreet fringilla leo, sit amet iaculis felis tincidunt ac. Vivamus cursus imperdiet dolor, in ultrices ipsum
+    luctus vel. Nullam at magna in eros faucibus feugiat. Quisque ornare pharetra odio eu luctus. Pellentesque luctus
+    sodales posuere. Sed at ligula felis. In fermentum metus dapibus, dictum tortor eu, porttitor massa. Integer eu
+    dolor non ligula placerat condimentum. In tincidunt felis varius justo sodales tincidunt. Sed accumsan velit a
+    tellus bibendum tincidunt. Vestibulum bibendum, lorem non vestibulum vulputate, tellus purus fringilla metus, ac
+    auctor libero tortor et nulla. Donec imperdiet quis nunc sit amet finibus. Vestibulum facilisis lacus sem, quis
+    accumsan sapien finibus eu. Phasellus vitae tortor gravida, commodo lectus ut, tristique sem. Nam posuere magna nec
+    justo vulputate sollicitudin. Nullam quis urna lorem.
+
+    Aenean eu dapibus eros. Mauris ut sodales arcu. Maecenas venenatis scelerisque enim eu efficitur. Nulla facilisi.
+    Integer a rhoncus quam. Fusce luctus ex non fermentum bibendum. Proin tortor ex, accumsan non mattis ut, lobortis et
+    lorem. In lorem lorem, pharetra ut ipsum ac, rutrum gravida dolor. Pellentesque habitant morbi tristique senectus et
+    netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada
+    fames ac turpis egestas.</p>
+
+
+<h1 class="center">Other Options</h1>
+<ul style="display: inline-block; width: 30%; margin: 1.5%; text-align: center; list-style-type: none; float: left">
+    <span style="font-weight: bold">Font-Style</span>
+    <li style="font-style: italic">Italic</li>
+    <li>Normal</li>
+    <li style="font-style: oblique">Oblique</li>
+</ul>
+<ul style="display: inline-block; width: 30%; margin: 1.5%; text-align: center; list-style-type: none; float: left">
+    <span style="font-weight: bold">Text-Decoration</span>
+    <li style="text-decoration: overline ">Overline</li>
+    <li style="text-decoration: underline">Underline</li>
+    <li>None</li>
+
+</ul>
+
+<ul style="display: inline-block; width: 30%; margin: 1.5%; text-align: center; list-style-type: none; float: left">
+    <span style="font-weight: bold">Letter Spacing</span>
+    <li style="letter-spacing: -10px">-10px</li>
+    <li style="letter-spacing: normal">normal</li>
+    <li style="letter-spacing: 10px">10px</li>
+</ul>
+</div>
+<div class="container" id="Leading">
+    <h1 class="center">Line Height and Spacing</h1>
+<h3 class="leadingExample noLeading">This h3 tag has a height of 50px and it the paragraph below have normal
+    Leading</h3>
+<p class="leadingExample noLeading">Mauris et quam posuere, fringilla felis sit amet, varius leo. Ut ut dolor orci.
+    Fusce sed mauris sodales, imperdiet
+    elit id, fermentum orci. Pellentesque sagittis sed nunc non dignissim. Pellentesque et enim eget eros pharetra
+    porttitor consectetur et purus. Donec convallis aliquet diam, ac dignissim turpis mollis et. Etiam in ipsum
+    vestibulum, feugiat magna at, tincidunt eros. Suspendisse eu faucibus diam, nec dignissim neque. Nam viverra in
+    dolor vel placerat. Morbi quis mattis ex, sed egestas enim. Vestibulum rutrum luctus urna, varius congue libero
+    fermentum sed. Donec porta turpis turpis, eget aliquet est vehicula sed. Praesent ac finibus est. Cras convallis,
+    tellus non scelerisque vestibulum, est sapien auctor ipsum, id condimentum velit purus a velit.</p>
+<h3 class="leadingExample">This h3 tag has a height of 50px and it and the paragraph below have 50px line heights</h3>
+<p class="leadingExample">Mauris et quam posuere, fringilla felis sit amet, varius leo. Ut ut dolor orci. Fusce sed
+    mauris sodales, imperdiet
+    elit id, fermentum orci. Pellentesque sagittis sed nunc non dignissim. Pellentesque et enim eget eros pharetra
+    porttitor consectetur et purus. Donec convallis aliquet diam, ac dignissim turpis mollis et. Etiam in ipsum
+    vestibulum, feugiat magna at, tincidunt eros. Suspendisse eu faucibus diam, nec dignissim neque. Nam viverra in
+    dolor vel placerat. Morbi quis mattis ex, sed egestas enim. Vestibulum rutrum luctus urna, varius congue libero
+    fermentum sed. Donec porta turpis turpis, eget aliquet est vehicula sed. Praesent ac finibus est. Cras convallis,
+    tellus non scelerisque vestibulum, est sapien auctor ipsum, id condimentum velit purus a velit.</p>
+</div>
+</body>
+<script>
+
+
+    document.getElementById('fontSizeSelector').addEventListener('input', changeFontSize);
+    function changeFontSize() {
+        var fontSize = document.getElementById("fontSizeSelector").value;
+        document.getElementById('fontSizeVal').innerHTML = fontSize;
+        document.getElementById('fontSize').style.fontSize = fontSize + 'px';
+    }
+    document.getElementById('textIndentSelector').addEventListener('input', changeIndent);
+    function changeIndent() {
+        var indent = document.getElementById("textIndentSelector").value;
+        document.getElementById('fontIndentVal').innerHTML = indent;
+        document.getElementById('fontIndent').style.textIndent = indent + 'px';
+    }
+
+    var rad = document.querySelectorAll("input[type=radio]");
+    var prev = {textAlign: null, textTransform: null};
+    for (var i = 0; i < rad.length; i++) {
+        rad[i].onclick = function () {
+            console.log(this);
+            if (this !== prev[this.name]) {
+                prev[this.name] = this;
+                document.getElementById(this.name + 'Container').style[this.name] = this.value;
+            }
+        };
+    }
+    var currentValue = "SandW";
+    var currentLink = document.getElementsByTagName('a')[0];
+    function transitionTo(e, name){
+        e.preventDefault();
+        currentLink.classList.remove('active');
+        currentLink = e.target;
+        e.target.classList.add('active');
+        document.getElementById(currentValue).classList.remove('activeContainer');
+        currentValue = name;
+        document.getElementById(name).classList.add('activeContainer');
+    }
+</script>
+</html>
