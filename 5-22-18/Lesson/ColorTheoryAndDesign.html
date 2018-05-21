@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Theory and Design</title>
+
+    <style>
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .menu {
+            width: 100%;
+            float: left;
+        }
+
+        .link {
+            display: block;
+            float: left;
+            cursor: pointer;
+            text-align: center;
+            width: calc(100% / 3);
+            height: 50px;
+            line-height: 50px;
+            background-color: slategray;
+            color: white;
+        }
+
+        .link:hover:not(.active) {
+            background-color: white;
+            color: slategray;
+        }
+
+        .active {
+            background-color: black;
+        }
+
+        .overview {
+            text-decoration: underline;
+        }
+
+        .red, .orange, .yellow, .green, .cyan, .blue {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .orange {
+            color: orange;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .cyan {
+            color: cyan;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        figure img {
+            display: block;
+            width: 50%;
+            height: auto;
+            margin: auto;
+        }
+
+        figcaption, .bookTitle {
+            font-style: oblique;
+        }
+
+        .sub-list {
+            list-style-type: circle;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .container {
+            overflow: hidden;
+            padding: 1%;
+            background-color: white;
+            z-index: 1;
+            width: 98%;
+            position: absolute;
+            top: 145px;
+            transition: all 250ms;
+            left: 100%
+        }
+
+        .activeContainer {
+            background-color: white;
+            z-index: 2;
+            left: 0;
+        }
+
+        .mainHeading {
+            margin: 0;
+            padding: 10px;
+            border-bottom: 1px solid white;
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<h2 class="center mainHeading">Color Theory and Basic Design - Lecture Notes for Web Foundations<br>Emily Truax, May 22,
+    2018</h2>
+<nav class="menu">
+    <a class="link active" onclick="transitionTo(event, 'CTheory')">Color Theory</a>
+    <a class="link" onclick="transitionTo(event, 'CSchemes')">Color Schemes</a>
+    <a class="link" onclick="transitionTo(event, 'bDesign')">Basic Design Overview</a>
+</nav>
+<div class="container activeContainer" id="CTheory">
+    <h3 class="overview">History of Color Theory:</h3>
+    <h4>Sir Isaac Newton</h4>
+    <ul>
+        <li>
+            Invented the first color wheel.
+        </li>
+        <li>
+            Used prisms to split sunlight and recorded the generated colors:
+            <ul class="sub-list">
+                <li>
+                    <span class="red">red</span>, <span class="orange">orange</span>,
+                    <span class="yellow">yellow</span>, <span class="green">green</span>, <span class="cyan">Cyan</span>,
+                    <span class="blue">blue</span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Joined them in a circle to show the natural progression of color.
+        </li>
+        <figure>
+            <img src="./assets/colorWheel.jpg">
+            <figcaption class="center">Basic color wheel example</figcaption>
+        </figure>
+    </ul>
+    <h4>Johann Wolfgang Goethe</h4>
+    <ul>
+        <li> Writer and scientist, best known for Faust</li>
+        <li>Opposed Newton's "analytic" approach to color.</li>
+        <li>First to study physiological effects of color and how colors complement or contradict each other.</li>
+    </ul>
+    <figure>
+        <img src="./assets/psychOfColors.jpg">
+        <figcaption class="center">Psychology of colors example.</figcaption>
+    </figure>
+
+    <h3>Johannes Itten</h3>
+    <ul>
+        <li>Developed current color theory based on material characteristics, composition, and color.</li>
+        <li>Seven types of color contrast:
+            <ul>
+                <li>Hue, Value, Temperature, Complement, Simultaneous, Saturation, Extension</li>
+                <li> Reference: <a target="_blank" href="https://tinyurl.com/y9er9q2c">UT Dallas</a></li>
+            </ul>
+        </li>
+        <li>Created the "color sphere" based on red/yellow/blue as primary colors.</li>
+    </ul>
+    <figure>
+        <img src="./assets/ittenSphere.png">
+        <figcaption class="center">Itten's color sphere</figcaption>
+    </figure>
+    <h3>Color Theory References:</h3>
+    <p><span class="bookTitle">The Art of Color: The subjective experience and objective rationale of color</span>
+    </p>
+    <p>By: Johannes Itten
+    </p>
+    <p><span class="bookTitle">The Elements of Color: A treatise on the color system of Johannes Itten based on his book The Art of Color</span>
+    </p>
+    <p>Edited and with a forward and evaluation by Faber Birren
+    </p>
+    <p>Translated by Ernst Van Hagen
+    </p>
+</div>
+<div class="container" id="CSchemes">
+    <h3 class="overview">Color Schemes –</h3>
+    <p>Definitions:</p>
+    <ul>
+        <li>Color – The property possessed by an object of producing different sensations on the eye as a result of the
+            way the object reflects or emits light.
+            <ul class="sub-list">
+                <li> Also, a general term encompassing all color-related elements in design.</li>
+            </ul>
+        </li>
+        <li>Hue – The dominant family of a color (i.e. red, orange, green).
+            <ul class="sub-list">
+                <li>White, black, and gray are not hues.</li>
+                <li>Hues can be mixed to create other hues (per the color sphere).</li>
+            </ul>
+        </li>
+
+        <li>Tint – A hue or mixture of hues with white added.
+            <ul class="sub-list">
+                <li>Accomplished in digital design through increasing the lightness value.</li>
+            </ul>
+        </li>
+        <li> Shade – A hue or mixture of hues with black added.
+            <ul class="sub-list">
+                <li>Accomplished in digital design through decreasing the lightness value.</li>
+            </ul>
+        </li>
+        <li>Tone – A hue or mixture of hues with gray added.
+            <ul class="sub-list">
+                <li>Accomplished in digital design through decreasing the saturation value.</li>
+
+            </ul>
+        </li>
+    </ul>
+
+    <p>Schemes:</p>
+    <ul>
+
+        <li>Generally created using two, three, or four hues.</li>
+        <li>Use of a color wheel helps determine the most harmonious matches/combinations.
+            <ul class="sub-list">
+                <li> Color theory only analyzes hues, but similar approaches can be taken to build a color
+                    scheme/palette using
+                    tints, shades, and/or tones.
+                </li>
+            </ul>
+        </li>
+        <li>Types: (Need a palette to start with? <a target="_blank" href="https://coolers.co/app">https://coolors.co/app</a>
+            <ul class="sub-list">
+                <li>Achromatic – Black, white, or gray</li>
+                <li>Monochromatic – Variations in lightness and saturation of a single color.</li>
+                <li>Neutral – Brown (two complementary hues mixed together) and related variations in lightness and
+                    saturation.
+                </li>
+                <li>Analogous – Adjacent colors with one dominant.</li>
+                <li>Complementary – Opposite colors (high-contrast).</li>
+                <li>Near Complementary – Almost opposite colors (i.e. red and blue-green).</li>
+                <li>Split Complementary (analogous complementary) – Complementary variation: Opposite colors with
+                    adjacent colors
+                    on one side of the wheel.
+                </li>
+                <li>Triadic – Three colors equally spaced (equidistant/triangle spacing).</li>
+                <li>Tetradic (Double/Dual Complementary) – Two complimentary color pairs (rectangle or square spacing,
+                    best with
+                    one dominant color).
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+<div class="container" id="bDesign">
+    <h3 class="overview">Basic Design Overview - </h3>
+    <h4>Good Design vs Bad Design: <a target="_blank" href=" https://tinyurl.com/mfcgb3w">Interaction Design Foundation</a></h4>
+    <ul>
+        <li> Minimalism - Less is more.
+            <ul class="sub-list">
+                <li>Minimalism can be described as the stripping away of all unnecessary elements and focusing on what
+                    needs to be there. In this sense, minimalism encourages purpose.
+                </li>
+                <li>Used Well: <a target="_blank" href="https://tinyurl.com/ya9av35v">Examples</a></li>
+                <li>Used Not-so-well: <a target="_blank" href="http://www.lazoroffice.com/">Example</a></li>
+            </ul>
+        </li>
+        <li>Brutalism – When we didn’t know any better.
+            <ul class="sub-list">
+                <li>The term “brutalism” originated in the 1970s as a means to describe mostly institutional
+                    architecture that featured large, aesthetically heavy buildings that featured vast expanses of
+                    exposed concrete
+                </li>
+                <li>As a design approach, is meant to reflect the early days of the web and buck the current trends of
+                    clean lines and simple/minimalist design.
+                </li>
+                <li>Used Well: <a target="_blank" href="http://webtlak.sk/">http://webtlak.sk/</a>, <a target="_blank" href="http://picturesnow.org/">http://picturesnow.org/</a>
+                </li>
+                <li>Used Not-so-well: <a target="_blank" href="http://www.wasteheadquarters.com/"> http://www.wasteheadquarters.com/</a>,
+                    <a target="_blank" href="http://brutalistframework.com/">http://brutalistframework.com/</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h4>Style Guides:</h4>
+    <h4>Often, app and web designs are owned by designers, not developers.</h4>
+    <ul>
+        <li>Hand-offs can be via multiple documents or though an app like Zeplin</li>
+        <li>May in clude pre-generated/pre-written CSS</li>
+    </ul>
+    <h4>Examples:</h4>
+    <ul>
+        <li>
+            Individual Site: <a target="_blank" href="https://benbrignell.com/styleguide/">Ben Brignell</a>
+        </li>
+        <li>
+            Corporate/Business Site: <a target="_blank" href="http://mailchimp.com/about/brand-assets/">Mail Chimp Assets</a>,
+            <a target="_blank" href="http://mailchimp.com/about/style-guide/">Mail Chimp Style Guide</a>,
+            <a target="_blank" href="http://ux.mailchimp.com/patterns/">Mail Chimp Patterns</a>
+        </li>
+        <li>
+            Great Reference (includes basic design best practices): <a target="_blank" href="https://design.trello.com">Trello</a>
+        </li>
+    </ul>
+    <h3>More Reference Material</h3>
+    <p><a target="_blank" href="https://tinyurl.com/y9c2xjpw">Visual Design Basics</a> </p>
+    <p> <a target="_blank" href="https://tinyurl.com/hd53dgz">Principles of Design</a> </p>
+    <p> <a target="_blank" href="https://tinyurl.com/kcg3l24">Elements of Art(and Design)</a> </p>
+
+
+</div>
+
+<script>
+    var currentValue = "CTheory";
+    var currentLink = document.getElementsByClassName('link')[0];
+
+    function changeHeight(prev, curr) {
+        document.getElementById(curr).style.height = 'auto';
+        setTimeout(function(){
+            document.getElementById(prev).style.height = 200 +'px';
+        }, 250)
+    }
+
+    function transitionTo(e, name) {
+        e.preventDefault();
+        console.log(document.getElementById(name));
+
+        currentLink.classList.remove('active');
+        changeHeight(currentValue, name);
+        currentLink = e.target;
+
+        e.target.classList.add('active');
+        document.getElementById(currentValue).classList.remove('activeContainer');
+        currentValue = name;
+        document.getElementById(name).classList.add('activeContainer');
+    }
+</script>
+</body>
+</html>

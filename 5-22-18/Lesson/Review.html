@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review</title>
+    <style>
+        .left, .right{
+            width: 50px;
+            height: 50px;
+            color: white;
+            line-height: 50px;
+            text-align: center;
+            margin: 0;
+            border: .5px solid black
+        }
+        .center{
+            text-align: center;
+        }
+
+        .right{
+            width: calc((100% / 3) - 1px);
+            background-color: orangered;
+        }
+        .left{
+            width: calc(((100% /3)*2) - 1px);
+            background-color: blueviolet;
+        }
+        .container{
+            text-align: center;
+            border: none;
+            width: 100%;
+            margin: auto;
+            line-height: normal;
+            color: black;
+        }
+        .rightContainer, .leftContainer{
+            width: 100%;
+        }
+        .rightContainer{
+            width: calc(100% / 3);
+            float: right;
+        }
+        .leftContainer{
+            float: left;
+            width: calc((100% /3)*2);
+        }
+        .leftContainer .left, .leftContainer .right, .rightContainer .right, .rightContainer .left{
+            width: calc(100% - 1px);
+        }
+
+    </style>
+</head>
+<body>
+<h3 class="center">LEFT Divs have a width of 66%, Right Divs have a width of 33%</h3>
+<div class="container">
+    <input type="radio" name="display" value="float" id="none" onclick="blockElement('block')" checked="checked"><label for="none">Normal</label>
+    <input type="radio" name="display" value="inline-block" id="inline-block" onclick="blockElement('inline-block')"><label for="inline-block">Inline-Block</label>
+    <input type="radio" name="display" value="float" id="float" onclick="blockElement('float')"><label for="float" >Float</label> <br>
+    <input type="checkbox" name="container" id="container" onchange="containers(event)"><label for="float" >Show with containers</label>
+
+</div>
+<div id ="withoutContainers">
+ <div class="left">LEFT - 1</div>
+ <div class="left">LEFT - 2</div>
+ <div class="right">RIGHT - 3</div>
+ <div class="right">RIGHT - 4</div>
+ <div class="right">RIGHT - 5</div>
+ <div class="left">LEFT - 6</div>
+ <div class="left">LEFT - 7</div>
+ <div class="left">LEFT - 8</div>
+ <div class="right">RIGHT - 9</div>
+ <div class="right">RIGHT - 10</div>
+ <div class="right">RIGHT - 11</div>
+ <div class="right">RIGHT - 12</div>
+ <div class="left">LEFT - 13</div>
+    <div class="left">LEFT - 14</div>
+</div>
+<div id ="withContainers" style = "display: none;">
+    <div class="leftContainer">
+    <div class="left">LEFT - 1</div>
+    <div class="left">LEFT - 2</div>
+    <div class="left">LEFT - 6</div>
+    <div class="left">LEFT - 7</div>
+    <div class="left">LEFT - 8</div>
+    <div class="left">LEFT - 13</div>
+    <div class="left">LEFT - 14</div>
+    </div>
+    <div class="rightContainer">
+    <div class="right">RIGHT - 3</div>
+    <div class="right">RIGHT - 4</div>
+    <div class="right">RIGHT - 5</div>
+    <div class="right">RIGHT - 9</div>
+    <div class="right">RIGHT - 10</div>
+    <div class="right">RIGHT - 11</div>
+    <div class="right">RIGHT - 12</div>
+    </div>
+</div>
+
+<script>
+    var allDivs = document.querySelectorAll('.left, .right');
+    var withCont = document.getElementById('withContainers');
+    var withoutCont = document.getElementById('withoutContainers');
+    function blockElement(val){
+        allDivs.forEach(function(div){
+            div.style.float = val === 'float' ?  div.classList.contains('left') ? 'left' : 'right' : 'none';
+            div.style.display = val !== 'float' ? val : 'block';
+        })
+    }
+    function containers(e){
+        document.getElementById('float').checked = true;
+        blockElement('float');
+        withCont.style.display = !e.target.checked ? 'none' : 'block';
+        withoutCont.style.display = !e.target.checked ? 'block' : 'none';
+    }
+</script>
+</body>
+</html>
