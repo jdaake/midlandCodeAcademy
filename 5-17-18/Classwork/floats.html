@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More Floats</title>
+    <link type="text/css" rel="stylesheet" href="floatsPractice.css">
+    <style>
+    .bg{
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+.bg::after {
+  content: "";
+  background: url('../../5-16-18/Solution/me.jpg');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+    body{
+      margin: 0;
+    }
+    .boxL, .boxR{
+      /* width: 100px; */
+      height: 100px;
+      background-color: orange;
+      line-height: 100px;
+      text-align: center;
+      border: 1px solid black;
+    }
+    .containerR{
+      width: 33%;
+      float: right;
+    }
+    .containerL{
+      width: 67%;
+      float: left;
+    }
+    .boxL{
+      width: calc(33% - 2px);
+      float: left;
+
+    }
+
+    .boxR{
+      width: calc(33% - 2px);
+      float: right;
+    }
+
+    </style>
+</head>
+<body>
+ <div class="containerL">
+    <div class="boxL">1L</div>
+    <div class="boxL">2L</div>
+    <div class="boxL">3L</div>
+    <div class="boxL">4L</div>
+    <div class="boxL">7L</div>
+</div>
+
+
+<div class="containerR">
+  <div class="boxR">5R</div>
+  <div class="boxR">6R</div>
+  <div class="boxR">8R</div>
+  <div class="boxR">9R</div>
+  <div class="boxR">10R</div>
+</div>
+<div class="bg">
+<h1>HELLO!</h1>
+</div>
+
+</body>
+</html>
