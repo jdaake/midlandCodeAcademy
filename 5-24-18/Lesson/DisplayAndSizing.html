@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display and Sizing</title>
+
+    <style>
+        div{
+            width: calc(50% - 2px);
+            border: 1px solid black;
+            margin: auto;
+            color: white;
+            background-color: #0088FF;
+        }
+        .div1{
+            max-width: 300px;
+        }
+        .div2{
+            min-width: 300px;
+        }
+        .div3{
+            min-width: 300px;
+            max-width: 500px;
+        }
+        .div4, .div5{
+            display:inline
+        }
+        .div6, .div7{
+            display: inline-block;
+        }
+        .div8{
+            max-height: 100px;
+        }
+        .div9, .div10{
+            float: left;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 class="center">All Divs width of 50% - 2px Border</h1>
+<div class="div1">Max-width: 300px</div>
+<div class="div2">Min-width: 300px</div>
+<div class="div3">Min: 300px, max:500px</div>
+<div class="div4">display:inline</div>
+<div class="div5">display:inline</div>
+<div class="div6">display:inline-block</div>
+<div class="div7">display:inline-block</div>
+<div class="div8">max-height: 100px;</div>
+<div class="div9">max-height: 100px;</div>
+<div class="div10">max-height: 100px;</div>
+</body>
+
+
+</html>

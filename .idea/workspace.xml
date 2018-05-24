@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -31,11 +31,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InClassFlexWork.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InClassFlexWork.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5-23-18/Classwork/InClassFlexWork.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlexPractice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Classwork/FlexPractice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlexInFlexExample.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Classwork/FlexInFlexExample.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Positioning.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/Positioning.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NthChildPractice.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Classwork/NthChildPractice.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="87" column="55" lean-forward="true" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayAndSizing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/DisplayAndSizing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="52" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Combinators.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/Combinators.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="724">
+              <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlexBoxReview.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/FlexBoxReview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/5-23-18/Classwork/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1003">
-              <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+              <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -57,16 +129,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>H</find>
-      <find>R{</find>
-      <find>);</find>
       <find>R</find>
       <find>)</find>
       <find>style=&quot;margin:auto;&quot;</find>
@@ -94,6 +163,9 @@
       <find>&lt;a</find>
       <find>&quot;hre</find>
       <find>blank &quot;h</find>
+      <find>type=&quot;text&quot;</find>
+      <find>&quot;&gt;[a-z][A-Z][0-9]&lt;</find>
+      <find>.div</find>
     </findStrings>
     <replaceStrings>
       <replace>container</replace>
@@ -134,11 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5-16-18/Solution/BasicAboutPageSolution.html" />
-        <option value="$PROJECT_DIR$/5-15-18/Solution/BasicAboutPageSolution.html" />
-        <option value="$PROJECT_DIR$/5-15-18/test" />
-        <option value="$PROJECT_DIR$/5-15-18/test2.html" />
-        <option value="$PROJECT_DIR$/5-15-18/Homework/homework-instructions.md" />
         <option value="$PROJECT_DIR$/5-15-18/Lesson/DisplayOptions.html" />
         <option value="$PROJECT_DIR$/5-15-18/Lesson/3By3.html" />
         <option value="$PROJECT_DIR$/5-15-18/Homework/homework.md" />
@@ -172,7 +239,6 @@
         <option value="$PROJECT_DIR$/5-23-18/Lesson/FlexBoxOptions.html" />
         <option value="$PROJECT_DIR$/5-22-18/Lesson/Review.html" />
         <option value="$PROJECT_DIR$/5-23-18/Classwork/FlexBoxPractice.html" />
-        <option value="$PROJECT_DIR$/5-24-18/Homework/FlexPractice.html" />
         <option value="$PROJECT_DIR$/5-31-18/Lesson/GitHub.html" />
         <option value="$PROJECT_DIR$/5-31-18/Lesson/Review.html" />
         <option value="$PROJECT_DIR$/5-22-18/Lesson/ColorTheoryAndDesign.html" />
@@ -182,9 +248,15 @@
         <option value="$PROJECT_DIR$/6-6-18/Homework/NameAndNumber.md" />
         <option value="$PROJECT_DIR$/6-5-18/Homework/homework.md" />
         <option value="$PROJECT_DIR$/5-31-18/Homework/homework.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/5-23-18/Classwork/InClassFlexWork.html" />
         <option value="$PROJECT_DIR$/5-23-18/Classwork/styles.css" />
+        <option value="$PROJECT_DIR$/5-24-18/Homework/NthChildPractice.html" />
+        <option value="$PROJECT_DIR$/5-24-18/Lesson/DisplayAndSizing.html" />
+        <option value="$PROJECT_DIR$/5-24-18/Lesson/Combinators.html" />
+        <option value="$PROJECT_DIR$/5-24-18/Homework/FlexPractice.html" />
+        <option value="$PROJECT_DIR$/5-24-18/Homework/FlexInFlexExample.html" />
+        <option value="$PROJECT_DIR$/5-24-18/Lesson/Positioning.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -195,10 +267,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1507" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,6 +296,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-24-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5-24-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,20 +401,20 @@
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-29-18" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.InClassFlexWork.html">
-    <configuration default="false" name="GridLayoutUsingFloats.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-23-18/Lesson/GridLayoutUsingFloats.html">
+  <component name="RunManager" selected="JavaScript Debug.Positioning.html">
+    <configuration default="false" name="FlexPractice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Homework/FlexPractice.html">
       <method />
     </configuration>
-    <configuration default="false" name="Review.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-22-18/Lesson/Review.html">
+    <configuration default="false" name="DisplayAndSizing.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Lesson/DisplayAndSizing.html">
       <method />
     </configuration>
-    <configuration default="false" name="FlexBoxPractice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-23-18/Classwork/FlexBoxPractice.html">
+    <configuration default="false" name="Combinators.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Lesson/Combinators.html">
       <method />
     </configuration>
-    <configuration default="false" name="ColorTheoryAndDesign.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-22-18/Lesson/ColorTheoryAndDesign.html">
+    <configuration default="false" name="FlexInFlexExample.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Homework/FlexInFlexExample.html">
       <method />
     </configuration>
-    <configuration default="false" name="InClassFlexWork.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-23-18/Classwork/InClassFlexWork.html">
+    <configuration default="false" name="Positioning.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Lesson/Positioning.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -370,19 +477,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.GridLayoutUsingFloats.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Review.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.FlexBoxPractice.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ColorTheoryAndDesign.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.InClassFlexWork.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FlexPractice.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DisplayAndSizing.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.FlexInFlexExample.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Positioning.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.InClassFlexWork.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ColorTheoryAndDesign.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.FlexBoxPractice.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Review.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.GridLayoutUsingFloats.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Positioning.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FlexInFlexExample.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.FlexPractice.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DisplayAndSizing.html" />
       </list>
     </recent_temporary>
   </component>
@@ -415,12 +522,13 @@
       <workItem from="1526840011103" duration="9472000" />
       <workItem from="1526911937965" duration="16904000" />
       <workItem from="1527001138228" duration="731000" />
-      <workItem from="1527010886648" duration="1391000" />
+      <workItem from="1527010886648" duration="1434000" />
+      <workItem from="1527177072312" duration="12388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124928000" />
+    <option name="totallyTimeSpent" value="137359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,10 +540,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="1507" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1849315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23893805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -482,55 +590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5-15-18/Lesson/DisplayOptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-15-18/Solution/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-16-18/Solution/NewsAndUpdatesSolution.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-16-18/Lesson/FloatsAndClears.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="90" column="35" lean-forward="false" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-16-18/Lesson/MoreBackgrounds.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-16-18/Lesson/Positioning.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5-16-18/Solution/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-16-18/Lesson/test.html" />
     <entry file="file://$PROJECT_DIR$/5-16-18/Homework/styles.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-24-18/Homework/FlexPractice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-23-18/Lesson/FlexBoxOptions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -711,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/FlexBoxReview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5-31-18/Lesson/Review.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -754,6 +799,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6-7-18/Homework/homework.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -762,24 +812,19 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6-6-18/Homework/NameAndNumber.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="145" lean-forward="false" selection-start-line="16" selection-start-column="145" selection-end-line="16" selection-end-column="145" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
             <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="145" lean-forward="false" selection-start-line="16" selection-start-column="145" selection-end-line="16" selection-end-column="145" />
         </state>
       </provider>
     </entry>
@@ -841,7 +886,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/5-23-18/Classwork/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/GridLayoutUsingFloats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -849,18 +902,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-23-18/Classwork/styles.css">
+    <entry file="file://$PROJECT_DIR$/5-23-18/Classwork/InClassFlexWork.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="476">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5-23-18/Classwork/InClassFlexWork.html">
+    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/FlexBoxReview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/FlexBoxOptionsReview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Classwork/NthChildPractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="87" column="55" lean-forward="true" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/DisplayAndSizing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="52" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/Combinators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="65" column="6" lean-forward="false" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Classwork/FlexPractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Classwork/FlexInFlexExample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-24-18/Lesson/Positioning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

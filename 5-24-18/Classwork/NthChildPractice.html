@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nth Child Practice</title>
+    <style>
+        .box {
+            width: 75px;
+            height: 75px;
+            display: inline-block;
+            background-color: #0088FF;
+            line-height: 75px;
+            color: white;
+            margin: 2px;
+            text-align: center;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #firstNth, #secondNth {
+            text-align: center;
+            width: 100%;
+            float: left;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<h2 class="center">Nth-child Practice all these divs have a class of box</h2>
+<div id="containerBox"></div>
+
+<h4 class="center"><select id="numSelectors" onchange="changeNumSelectors(event)">
+    <option value=1>1</option>
+    <option value=2>2</option>
+</select> nth-child selector<span id="plural"></span></h4>
+<div id="firstNth">
+    .box:nth-child(<select name="oneFirstA" id="oneFirstA" title="oneFirstA"></select> n+
+    <select id="oneFirstB" title="oneFirstB"></select>)
+    <div class="center">
+        <button onclick="changeColor(1)">Update</button>
+    </div>
+    <div class="center reset">
+        <button onclick="clearColor()">Reset</button>
+    </div>
+</div>
+<div id="secondNth" style="display: none">
+    .box:nth-child(<select id="twoFirstA" title="twoFirstA"></select> n+
+    <select id="twoFirstB" title="twoFirstB"></select>)
+    :nth-child(<select id="secondA" title="secondA"></select> n+<select id="secondB" title="secondB"></select>)
+    <div class="center">
+        <button onclick="changeColor(2)">Update</button>
+    </div>
+    <div class="center reset">
+        <button onclick="clearColor()">Reset</button>
+    </div>
+</div>
+
+
+<script>
+    const numDivs = 20 //parseInt(prompt('How Many Divs?'));
+
+    function divCreator(){
+        let div = '';
+        for(let i = 1; i <= numDivs; i++ ){
+            div += `<div class="box">${i}</div>`
+        }
+        return div;
+    }
+
+    function optionCreator(belowOne = false){
+        let options = '';
+        for(let i = belowOne ? -1 : 1; i <= numDivs; i++ ){
+            options += `<option value=${i}>${i}</option>`
+        }
+        return options;
+    }
+
+    document.getElementById('containerBox').innerHTML = divCreator();
+    const oneFirstA = document.getElementById('oneFirstA');
+    const oneFirstB = document.getElementById('oneFirstB');
+    const twoFirstA = document.getElementById('twoFirstA');
+    const twoFirstB = document.getElementById('twoFirstB');
+    const secondA = document.getElementById('secondA');
+    const secondB = document.getElementById('secondB');
+    const firstNth = document.getElementById('firstNth');
+    const secondNth = document.getElementById('secondNth');
+    const secondCheck = document.getElementById('secondCheck');
+    const plural = document.getElementById('plural');
+    const numSelectors = document.getElementById('numSelectors');
+    const orange = '#FFa500';
+
+    //Initializing all Elements
+    oneFirstA.innerHTML = twoFirstA.innerHTML = secondA.innerHTML = optionCreator(true);
+    oneFirstB.innerHTML = twoFirstB.innerHTML = secondB.innerHTML = optionCreator();
+
+    function changeNumSelectors(e) {
+        if (e.target.value == 2) {
+            secondA.value = twoFirstA.value = oneFirstA.value;
+            secondB.value = twoFirstB.value = oneFirstB.value;
+        }
+        else {
+            oneFirstA.value = twoFirstA.value;
+            oneFirstB.value = twoFirstB.value;
+        }
+        plural.innerHTML = e.target.value == 1 ? '' : 's';
+        firstNth.style.display = e.target.value == 1 ? 'block' : 'none';
+        secondNth.style.display = e.target.value == 2 ? 'block' : 'none';
+    }
+    function clearColor() {
+        oneFirstA.value = "-1";
+        oneFirstB.value = "1";
+        twoFirstA.value = "-1";
+        twoFirstB.value = "1";
+        secondA.value = "-1";
+        secondB.value = "1";
+        document.getElementById('style').innerHTML = '';
+    }
+    function changeColor(num) {
+
+        document.getElementById('style').innerHTML =
+            num === 2 ?
+                `.box:nth-child(${twoFirstA.value}n+${twoFirstB.value}):nth-child(${secondA.value}n+${secondB.value}){
+                background-color: ${orange};
+                }` :
+                `.box:nth-child(${oneFirstA.value}n+${oneFirstB.value}){
+                background-color: ${orange};
+                }`
+    }
+
+
+</script>
+</body>
+<style id="style">
+
+
+</style>
+</html>

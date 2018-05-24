@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>We Must Go Deeper</title>
+
+    <style>
+        .pageContainer, .secondaryContainer, .tertiaryContainer {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .secondaryContainer {
+            flex: 1 1 600px;
+        }
+
+        .tertiaryContainer {
+            flex: 1 1 200px;
+        }
+
+        .content {
+            background-color: #0088FF;
+            min-height: 300px;
+            flex: 1 1 300px;
+        }
+
+        .subContent {
+            flex: 1 0 100px;
+            min-height: 100px;
+            background-color: #FFa500;
+        }
+
+        .content, .subContent, .tertiaryContent {
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        .tertiaryContent {
+            flex: 1 1 30px;
+            /*min-height: 30px;*/
+            background-color: indigo;
+        }
+
+        .column {
+            flex-flow: column wrap;
+        }
+
+        .column .tertiaryContent {
+            flex: 1 1 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="pageContainer">
+    <div class="content secondaryContainer">
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+    </div>
+    <div class="content secondaryContainer">
+        <div class="subContent"></div>
+        <div class="subContent tertiaryContainer">
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+        </div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+    </div>
+    <div class="content secondaryContainer">
+        <div class="subContent tertiaryContainer column">
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+        </div>
+        <div class="subContent"></div>
+    </div>
+    <div class="content secondaryContainer">
+        <div class="subContent  tertiaryContainer column">
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+
+        </div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+    </div>
+    <div class="content secondaryContainer">
+        <div class="subContent tertiaryContainer">
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+        </div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+    </div>
+    <div class="content secondaryContainer">
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent tertiaryContainer">
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+            <div class="tertiaryContent"></div>
+        </div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+        <div class="subContent"></div>
+    </div>
+
+
+</div>
+</body>
+</html>
