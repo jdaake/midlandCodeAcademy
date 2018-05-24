@@ -1,0 +1,103 @@
+/* Header */
+
+.headerClass {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 48px;
+    font-family: monospace;
+    line-height: 100px;
+    text-align: center;
+}
+
+/* Main Content Classes */
+
+.mainContent {
+    width: 65%;
+    float: left;
+}
+
+.flexRowWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*OR -  flex-flow: row wrap*/
+}
+
+.mainSubContent {
+    background-color: blue;
+    flex: 1 1 250px;
+    height: 250px;
+    margin: 5px;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Side Content Classes */
+
+.sideContent {
+    width: 30%;
+    margin: auto;
+    float: right;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideSubContent {
+    background-color: red;
+    flex: 1 1 250px;
+    height: 250px;
+    margin: 5px;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Footer Class */
+
+.footerClass {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 48px;
+    font-family: monospace;
+    line-height: 100px;
+    text-align: center;
+    clear: both;
+}
+
+/* Order Classes */
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.order5 {
+    order: 5;
+}
+
+.order6 {
+    order: 6;
+}
