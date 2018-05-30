@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Query Practice</title>
+
+    <style>
+        .main{
+            width: 75%;
+            float: left;
+            background-color: #0088FF;
+        }
+        .aside{
+            width: 25%;
+            float: left;
+            background-color: #FFa500;
+        }
+
+        .content{
+            background-color: #FF0000;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            line-height: 200px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
+        .main .content{
+            width: calc(33% - 20px);
+        }
+        .aside .content{
+            width: calc(100% - 20px);
+        }
+
+        /*MEDIA QUERIES*/
+         /*Follow the guidelines on the pictures in this folder to restyle the page at the appropriate breakpoints*/
+
+        @media(min-width: 1200px){
+            .main .content{
+                width: calc(25% - 20px);
+            }
+        }
+
+        @media(max-width: 800px){
+            .main, .aside{
+                width: 100%;
+            }
+            .aside .content{
+                width: calc(33% - 20px);
+            }
+        }
+
+        /*Under 600 also inherits under 800 due to cascading so you don't need to repeat those*/
+        @media(max-width: 600px){
+            .main .content{
+                width: calc(50% - 20px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+    <div class="content">A</div>
+</div>
+
+
+<div class="aside">
+    <div class="content">B</div>
+    <div class="content">B</div>
+    <div class="content">B</div>
+</div>
+
+</body>
+</html>

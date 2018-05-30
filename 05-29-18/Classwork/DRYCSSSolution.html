@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DRY CSS</title>
+    <style>
+
+        /*I would make as many reusable classes as possible and decide what needs to be default styling for all pages this*/
+        /*stylesheet would be used for. For the sake of argument I assumed that all divs need to be inline-block with a */
+        /* 5px margin and that all elements should have a default text color of white*/
+        *{
+            color: white;
+        }
+        div{
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .orange-bg{
+            background-color: #FFa500;
+        }
+        .blue-bg{
+            background-color: #0088FF;
+        }
+
+        .text-center{
+            text-align: center;
+        }
+
+        .text-right{
+            text-align: right;
+        }
+
+        .big-box{
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+        }
+
+        .small-box{
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+        }
+
+        .black-border{
+            border: 1px solid black;
+        }
+
+        .red-border{
+            border: 1px solid red;
+        }
+
+        .round-edges{
+            border-radius: 10px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<h3 class="text-center orange-bg">DRY CSS</h3>
+<div class="text-center orange-bg big-box black-border">Div 1</div>
+<div class="text-center orange-bg big-box black-border">Div 2</div>
+<div class="text-center orange-bg big-box red-border round-edges">Div 3</div>
+<div class="text-center orange-bg big-box red-border round-edges">Div 4</div>
+<div class="text-center blue-bg small-box black-border round-edges">Div 5</div>
+<div class="text-center blue-bg small-box black-border round-edges">Div 6</div>
+<div class="text-center blue-bg small-box black-border round-edges">Div 7</div>
+<div class="text-right blue-bg small-box">Div 8</div>
+<div class="text-right blue-bg small-box">Div 9</div>
+<div class="text-right blue-bg small-box">Div 10</div>
+<h3 class="text-right blue-bg">What can we fix?</h3>
+</body>
+</html>

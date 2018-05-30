@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FloatsAndClears</title>
+    <style>
+        .left, .right {
+            height: 40px;
+            border: 1px solid black;
+            margin: 2px;
+            color: white;
+            line-height: 40px;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .left {
+            background-color: #FFa500;
+            width: calc(75% - 8px);
+            float: left;
+        }
+
+        .right {
+            background-color: #0088FF;
+            width: calc(25% - 8px);
+            float: right;
+        }
+
+        button {
+            cursor: pointer;
+            display: inline-block;
+            width: calc(40% - 5px);
+            margin: 10px 5%;
+        }
+
+        /*Below is best practice styling*/
+        .leftContainer{
+            width: 75%;
+            float: left;
+        }
+        .rightContainer{
+            width: 25%;
+            float: left;
+            /*float right also works but since it equals 100% with leftContainer either can be used.*/
+        }
+
+        .leftContainer .left, .rightContainer .right{
+            width: calc(100% - 8px);
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+<h3 style="text-align: center">See Comments in the style tag in the head for instructions</h3>
+<!--First Way is not best practice as it doesn't scale well. Just re-order the items to be alternating like:-->
+<div class="left">L-1</div>
+<div class="right">R-1</div>
+<div class="left">L-2</div>
+<div class="right">R-2</div>
+<div class="left">L-3</div>
+<div class="right">R-3</div>
+<div class="left">L-4</div>
+<div class="right">R-4</div>
+<div class="left">L-5</div>
+<div class="right">R-5</div>
+<div class="left">L-6</div>
+<div class="right">R-6</div>
+
+<!--Best Practice is to use containers to allow for adding or removing items easily-->
+<h3  style="text-align: center"> Best Practice</h3>
+<div class="leftContainer">
+<div class="left">L-1</div>
+<div class="left">L-2</div>
+<div class="left">L-3</div>
+<div class="left">L-4</div>
+<div class="left">L-5</div>
+<div class="left">L-6</div>
+</div>
+<div class="rightContainer">
+<div class="right">R-1</div>
+<div class="right">R-2</div>
+<div class="right">R-3</div>
+<div class="right">R-4</div>
+<div class="right">R-5</div>
+<div class="right">R-6</div>
+</div>
+
+
+
+</body>
+</html>

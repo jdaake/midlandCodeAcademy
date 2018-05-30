@@ -21,41 +21,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="FloatsAndClearsStepTwo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="418">
+              <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Combinators.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/Combinators.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wikipedia.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/Wikipedia.html">
+      <file leaf-file-name="MediaQueries.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transforms.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/Transforms.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transitions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/Transitions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+            <state relative-caret-position="452">
+              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -64,32 +57,19 @@
       <file leaf-file-name="DRYCSS.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/DRYCSS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="367">
               <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReviewAndPractice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Classwork/ReviewAndPractice.html">
+      <file leaf-file-name="DRYCSSSolution.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-29-18/Classwork/DRYCSSSolution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="901">
+              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="instructions.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Homework/instructions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -177,12 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5-17-18/Classwork/floatsPractice.css" />
-        <option value="$PROJECT_DIR$/5-17-18/Lesson/FontsFontsFonts.html" />
-        <option value="$PROJECT_DIR$/5-17-18/Lesson/DifferentFonts.html" />
-        <option value="$PROJECT_DIR$/5-17-18/Lesson/TextChanges.html" />
-        <option value="$PROJECT_DIR$/5-22-18/Solution/homework.css" />
-        <option value="$PROJECT_DIR$/5-22-18/Solution/homework.html" />
         <option value="$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html" />
         <option value="$PROJECT_DIR$/5-17-18/Homework/homework.md" />
         <option value="$PROJECT_DIR$/5-22-18/Lesson/Weeks1to2Review.html" />
@@ -228,6 +202,12 @@
         <option value="$PROJECT_DIR$/5-29-18/Lesson/DRYCSS.html" />
         <option value="$PROJECT_DIR$/5-29-18/Homework/instructions.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FlexBox.html" />
+        <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/PseudoClasses.html" />
+        <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html" />
+        <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/Combinators.html" />
+        <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries/MediaQueries.html" />
+        <option value="$PROJECT_DIR$/05-29-18/Classwork/DRYCSSSolution.html" />
       </list>
     </option>
   </component>
@@ -239,7 +219,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1768" />
+    <option name="width" value="1501" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -258,6 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -342,10 +324,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-24-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-24-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,35 +373,35 @@
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18\Homework\MediaQueries" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-29-18\Solution" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18\Lesson" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-17-18\Homework" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-31-18" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\05-29-18\Solution\WeekendHomework" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18\Homework\MediaQueries" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\7-3-18" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\6-28-18" />
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-22-18\Lesson\assets" />
-      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-17-18\Classwork" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\05-29-18\Classwork" />
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\05-29-18\Solution\WeekendHomework" />
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18\Homework\MediaQueries" />
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-29-18\Solution" />
+      <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18\Lesson" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DRYCSS.html">
-    <configuration default="false" name="PseudoClasses.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Homework/PseudoSelectorsandClasses/PseudoClasses.html">
+  <component name="RunManager" selected="JavaScript Debug.DRYCSSSolution.html">
+    <configuration default="false" name="PseudoClasses.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Solution/WeekendHomework/PseudoClasses.html">
       <method />
     </configuration>
-    <configuration default="false" name="FlexBox.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-24-18/Homework/FlexBox/FlexBox.html">
+    <configuration default="false" name="FloatsAndClearsStepTwo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html">
       <method />
     </configuration>
-    <configuration default="false" name="Transforms.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-29-18/Lesson/Transforms.html">
+    <configuration default="false" name="Combinators.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Solution/WeekendHomework/Combinators.html">
       <method />
     </configuration>
-    <configuration default="false" name="Transitions.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-29-18/Lesson/Transitions.html">
+    <configuration default="false" name="MediaQueries.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Solution/WeekendHomework/MediaQueries.html">
       <method />
     </configuration>
-    <configuration default="false" name="DRYCSS.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/5-29-18/Lesson/DRYCSS.html">
+    <configuration default="false" name="DRYCSSSolution.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Classwork/DRYCSSSolution.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -453,17 +465,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.PseudoClasses.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FlexBox.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Transforms.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Transitions.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSS.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FloatsAndClearsStepTwo.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.MediaQueries.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSSSolution.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSS.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Transitions.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Transforms.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.FlexBox.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSSSolution.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.MediaQueries.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.FloatsAndClearsStepTwo.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.PseudoClasses.html" />
       </list>
     </recent_temporary>
@@ -501,12 +513,13 @@
       <workItem from="1527177072312" duration="12476000" />
       <workItem from="1527216249740" duration="719000" />
       <workItem from="1527254238384" duration="9120000" />
-      <workItem from="1527605913986" duration="6058000" />
+      <workItem from="1527605913986" duration="6132000" />
+      <workItem from="1527707420426" duration="1682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153344000" />
+    <option name="totallyTimeSpent" value="155100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,10 +531,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1768" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1501" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23526011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26520848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -568,69 +581,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MidlandCodeAcademy-master/1-31-18/newspaper-layout/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3344">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MidlandCodeAcademy-master/1-31-18/newspaper-layout/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="78" column="14" lean-forward="true" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-23-18/Lesson/FlexBoxOptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-23-18/Lesson/FlexBox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="159" column="10" lean-forward="false" selection-start-line="159" selection-start-column="10" selection-end-line="159" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-22-18/Solution/homework.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="126" column="73" lean-forward="false" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-23-18/Classwork/Tetris.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-23-18/Lesson/GridLayoutUsingFloats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="145" column="6" lean-forward="false" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-22-18/Lesson/Review.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-17-18/Lesson/TextChanges.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-23-18/Classwork/FlexBoxPractice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -891,10 +841,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-29-18/Solution/Wikipedia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -909,24 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/Transitions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/DRYCSS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-29-18/Classwork/ReviewAndPractice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="571">
+          <caret line="76" column="7" lean-forward="false" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -942,10 +884,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/PseudoClasses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="629">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FlexBox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/Combinators.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries/Over1200px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries/Under800px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries/Under600Px.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Classwork/ReviewAndPractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/DRYCSS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-29-18/Classwork/DRYCSSSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding />
         </state>
       </provider>
