@@ -21,54 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FloatsAndClearsStepTwo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Combinators.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/Combinators.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MediaQueries.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries.html">
+      <file leaf-file-name="PositoningPractice.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-30-18/Lesson/PositoningPractice.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DRYCSS.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Lesson/DRYCSS.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DRYCSSSolution.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-29-18/Classwork/DRYCSSSolution.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="884">
+              <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -87,8 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;content&quot;</find>
-      <find>class=&quot;(.*?)&quot;</find>
       <find>img  src</find>
       <find>Align</find>
       <find>texTransform</find>
@@ -117,10 +82,10 @@
       <find>X</find>
       <find>Y</find>
       <find>.div</find>
+      <find>content&quot;</find>
+      <find>20</find>
     </findStrings>
     <replaceStrings>
-      <replace>RA{</replace>
-      <replace>,.5);</replace>
       <replace>rgba</replace>
       <replace>RA</replace>
       <replace>, .5)</replace>
@@ -149,6 +114,8 @@
       <replace>skewX</replace>
       <replace>Y</replace>
       <replace>Div</replace>
+      <replace>content text-center&quot;</replace>
+      <replace>200</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -157,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5-17-18/Homework/homeworkHTMLOnly.html" />
         <option value="$PROJECT_DIR$/5-17-18/Homework/homework.md" />
         <option value="$PROJECT_DIR$/5-22-18/Lesson/Weeks1to2Review.html" />
         <option value="$PROJECT_DIR$/5-23-18/Lesson/WhenFloatsBreakDown.html" />
@@ -201,13 +167,14 @@
         <option value="$PROJECT_DIR$/5-29-18/Classwork/ReviewAndPractice.html" />
         <option value="$PROJECT_DIR$/5-29-18/Lesson/DRYCSS.html" />
         <option value="$PROJECT_DIR$/5-29-18/Homework/instructions.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FlexBox.html" />
         <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/PseudoClasses.html" />
         <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html" />
         <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/Combinators.html" />
         <option value="$PROJECT_DIR$/05-29-18/Solution/WeekendHomework/MediaQueries/MediaQueries.html" />
         <option value="$PROJECT_DIR$/05-29-18/Classwork/DRYCSSSolution.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/05-30-18/Lesson/PositoningPractice.html" />
       </list>
     </option>
   </component>
@@ -219,8 +186,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
+    <option name="y" value="1" />
     <option name="width" value="1501" />
-    <option name="height" value="1047" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -249,6 +217,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-30-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MidlandCodeAcademy-Cohort3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05-30-18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,10 +388,7 @@
       <recent name="C:\Users\Mike Truax\Desktop\MidlandCodeAcademy-Cohort3\5-24-18\Lesson" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DRYCSSSolution.html">
-    <configuration default="false" name="PseudoClasses.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Solution/WeekendHomework/PseudoClasses.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.PositoningPractice.html">
     <configuration default="false" name="FloatsAndClearsStepTwo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Solution/WeekendHomework/FloatsAndClearsStepTwo.html">
       <method />
     </configuration>
@@ -402,6 +399,9 @@
       <method />
     </configuration>
     <configuration default="false" name="DRYCSSSolution.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-29-18/Classwork/DRYCSSSolution.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="PositoningPractice.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MidlandCodeAcademy-Cohort3/05-30-18/Lesson/PositoningPractice.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -464,24 +464,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.PseudoClasses.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.FloatsAndClearsStepTwo.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.MediaQueries.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSSSolution.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FloatsAndClearsStepTwo.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.MediaQueries.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSSSolution.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.PositoningPractice.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSSSolution.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.MediaQueries.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.FloatsAndClearsStepTwo.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.PseudoClasses.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.PositoningPractice.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DRYCSSSolution.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.MediaQueries.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Combinators.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.FloatsAndClearsStepTwo.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -514,12 +517,12 @@
       <workItem from="1527216249740" duration="719000" />
       <workItem from="1527254238384" duration="9120000" />
       <workItem from="1527605913986" duration="6132000" />
-      <workItem from="1527707420426" duration="1682000" />
+      <workItem from="1527707420426" duration="2500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155100000" />
+    <option name="totallyTimeSpent" value="155918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +534,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1501" height="1047" extended-state="0" />
+    <frame x="-7" y="1" width="1501" height="1046" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26520848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -581,13 +584,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-23-18/Classwork/FlexBoxPractice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="165" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-31-18/Lesson/Review.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -841,14 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-29-18/Solution/Wikipedia.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -962,6 +950,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-30-18/Lesson/PositoningPractice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding />
         </state>
       </provider>
