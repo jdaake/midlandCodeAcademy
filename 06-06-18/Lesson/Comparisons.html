@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparisons</title>
+
+    <script>
+        // Generic comparisons
+        var three = 3;
+        var threeString = "3";
+        var two = 2;
+        var twoString = "2";
+
+        //Greater Than
+        console.log(three > two); //?
+        console.log(two > two); //?
+
+        //Greater Than OR equal to
+        console.log(three > two); //?
+        console.log(two >= two); //?
+
+        //Less Than/ Less Than Equal To
+        console.log(three < two); //?
+        console.log(two <= two); //?
+
+        //equal to both ways
+        console.log(two == twoString); //?
+        console.log(two === twoString); //?
+
+        //not equal
+        console.log(two != three); //?
+        console.log(two !== twoString); //?
+        console.log(two != two); //?
+
+        //Comparing Strings
+        console.log(threeString > twoString); //?
+        console.log(threeString > two); //?
+        console.log("Hello" == "hello"); //?
+        console.log("Hello" > threeString); //?
+        
+        
+        //Multiple Comparisons in one
+        console.log(3 > 2 && 2 === "2"); // ?
+        console.log( 3> 2 || 2 === "2");
+        console.log( ( (3>2 || 3<2) && (2==3 || 2 >5) ) || (1>-1 && (5 >=5)) );
+
+
+        //Using them in an IF/Else setting
+
+        if(three === threeString){
+            console.log("Both are equal");
+        }
+        else if(3>2){
+            console.log("3>2");
+        }
+        else{
+            console.log("How did you get here?");
+        }
+
+        //using a switch
+        var switchVariable = 4;
+        switch (switchVariable){
+            case 4:
+                console.log("looks like you just have a 4 there");
+            case 3:                                                 //fallthrough example
+                console.log("looks like it's a 3");
+                break;
+            case 2:
+                console.log("Oh a 2 I see!");
+                break;
+            default:
+                console.log("The only numbers I know are 2,3 and 4 and it isn't one of those.")
+        }
+
+
+
+        //Loops it is!
+        for(var i = 0; i<10; i++){
+            console.log(i)
+        }
+
+        //nested
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
