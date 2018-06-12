@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun with Functions</title>
+
+    <script>
+        //1
+        function absVal(x){
+            return x < 0 ? 0-x : x
+        }
+        //2
+        function toThePower(x,y){
+            var total = 1;
+            while(y--){
+                total *=x
+            }
+            return total;
+        }
+        //3
+
+        function palindrome(word){
+            word = word.toLowerCase();
+            if(word === word.split('').reverse().join('')){
+                console.log(word+" is a palindrome!");
+            }
+            else{
+                console.log(word+ " is not a palindrome");
+            }
+        }
+        //4
+        function redaction(words, bannedWords){
+            for(var i=0; i<words.length; i++){
+                for(var j=0; j <bannedWords.length; j++){
+                    if (words[i] == bannedWords[j]){
+                        words[i] = "REDACTED";
+                    }
+                }
+            }
+            return words;
+        }
+
+
+        //5
+        function fizzBuzz(a,b){
+
+            if(a==b){
+                return;
+            }
+            else if(a>b){
+                for(i=a; i>=b; i--){
+                    if(i %6 ==0){
+                        console.log('FizzBuzz');
+                    }
+                    else if(i %3 ==0){
+                        console.log('Buzz')
+                    }
+                    else if (i %2 == 0){
+                        console.log('Fizz');
+                    }
+                    else{
+                        console.log(i);
+                    }
+                }
+            }
+            else{
+                for(i=a; i<=b; i++){
+                    if(i %6 ==0){
+                        console.log('FizzBuzz');
+                    }
+                    else if(i %3 ==0){
+                        console.log('Buzz')
+                    }
+                    else if (i %2 == 0){
+                        console.log('Fizz');
+                    }
+                    else{
+                        console.log(i);
+                    }
+                }
+            }
+
+            // have below then each loop could just have loggingFizzBuzz(i);
+//            function loggingFizzBuzz(val){
+//                if(val %6 ==0){
+//                    console.log('FizzBuzz');
+//                }
+//                else if(val %3 ==0){
+//                    console.log('Buzz')
+//                }
+//                else if (val %2 == 0){
+//                    console.log('Fizz');
+//                }
+//                else{
+//                    console.log(val);
+//                }
+//            }
+        }
+
+        //Bonus
+        function toThePowerRecursive(x,y){
+            if (y == 0){
+                return 1;
+            }
+            else{
+                return x * toThePowerRecursive(x, --y);
+            }
+        }
+
+        //OR
+        function recursiveWithTernary(x,y){
+            return y == 0 ? 1 : x* recursiveWithTernary(x,--y);
+        }
+
+        //Extra Bonus
+        function counter(){
+            var counter = 0;
+            return function(){
+                ++counter;
+                console.log(counter);
+            }
+        }
+        var a = counter();
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
