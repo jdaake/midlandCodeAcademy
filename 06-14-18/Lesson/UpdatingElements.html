@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Creating and Destryoing Elements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .div{
+        height: 200px;
+        width: 200px;
+        background-color: orange;
+        line-height: 60px;
+        margin: 10px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+    }
+    .container{
+        margin: 10px auto;
+        text-align: center
+    }
+    #add{
+        width: 120px;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <button class="button" id="delete">Delete: </button>
+        <select id="selectedDiv">
+            <option value="div1">Div 1</option>
+            <option value="div2">Div 2</option>
+            <option value="div3">Div 3</option>
+            <option value="div4">Div 4</option>
+            <option value="div5">Div 5</option>
+        </select>
+    </div>
+    <div class="container">
+        <button class="button" id="add">Add a div!</button>
+    </div>
+    <div class="container" id="divContainer">
+        <div class="div" id="div1">I'm div number 1<br>Click me to move me to the beggining of the list!</div>
+        <div class="div" id="div2">I'm div number 2<br>Click me to move me to the beggining of the list!</div>
+        <div class="div" id="div3">I'm div number 3<br>Click me to move me to the beggining of the list!</div>
+        <div class="div" id="div4">I'm div number 4<br>Click me to move me to the beggining of the list!</div>
+        <div class="div" id="div5">I'm div number 5<br>Click me to move me to the beggining of the list!</div>
+    </div>
+    <script>
+    var nextDiv = 6;
+    var select = document.getElementById('selectedDiv');
+    var divContainer = document.getElementById('divContainer');
+
+    var divs = document.getElementsByClassName('div');
+    
+    for(var i=0; i<divs.length; i++){
+        divs[i].addEventListener('click', function(e){
+                moveDiv(e.target);
+            })
+    }
+
+    document.getElementById('delete').addEventListener('click', function(){
+        var selected = document.getElementById(select.value);
+        var option = document.querySelector('option[value="'+select.value+'"]');
+        console.log(option);
+        select.removeChild(option);
+        divContainer.removeChild(selected);
+    });
+
+    document.getElementById('add').addEventListener('click', function(){
+        var newDiv = document.createElement('div');
+        newDiv.classList.add('div');
+        newDiv.id = 'div'+nextDiv;
+        newDiv.innerHTML = "I'm div number "+nextDiv+"<br>Click me to move me to the beggining of the list!";
+        newDiv.addEventListener('click', function(e){
+            moveDiv(e.target);
+        });
+        divContainer.appendChild(newDiv);
+        
+        
+        var newOption = document.createElement('option');
+        newOption.innerText = "Div "+ nextDiv;
+        newOption.value = 'div'+nextDiv;
+        select.appendChild(newOption);
+        nextDiv++;
+    });
+
+    function moveDiv(div){
+        divContainer.removeChild(div);
+        divContainer.prepend(div);
+    }
+
+    
+    
+    </script>
+</body>
+</html>
