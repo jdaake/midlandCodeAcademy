@@ -2,12 +2,25 @@
 var buttons = document.getElementsByClassName('button');
 var winCounter = document.getElementById('count');
 var playerClickCounter = 0;
+var delay = 0;
+// Adding sound effects
+var sounds = {
+    green: new Audio("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"),
+    red: new Audio("https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"),
+    blue: new Audio("https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"),
+    yellow: new Audio ("https://s3.amazonaws.com/freecodecamp/simonSound4.mp3")
+  };
 
 //This will tell is if the game is ready for the player to click or not. There are multiple ways to do this
 //but this is the most straightforward.
 var canClick = false;
 var simonsChoices = [];
 
+
+function playSound(element){
+    sounds[element.id].currentTime = 0;
+    sounds[element.id].play();
+}
 
 function checkClicked(clickedButton){
     //We replace the 0 with the playerClickCounter variable which we can increment or reset as needed.
@@ -27,12 +40,12 @@ function checkClicked(clickedButton){
         //by the user to remove the active class before highlighting any elements in the new cycle.
         window.setTimeout(function(){
             getRandomButton();
-        }, 500)
+        }, 300)
         playerClickCounter = 0;
         }
     }
     else{
-        
+        canClick = false;
         //Unhides loss message;
         document.getElementById('footer').style.display = 'block';
     }
@@ -44,6 +57,7 @@ function highlightButtons(){
     var counter = 0;
     //Start with the first element having the active class
     simonsChoices[0].classList.add('active');
+    playSound(simonsChoices[0]);
     var buttonInterval = window.setInterval(function(){
         //Removes the active class from the previously active button
         simonsChoices[counter].classList.remove('active');
@@ -59,9 +73,10 @@ function highlightButtons(){
         //So this extra 200ms delay is in case the same color happens two or more times in a row. Without it
         //the element will just stay lit making it hard to guess how many times to press it.
         window.setTimeout(function(){
+            playSound(simonsChoices[counter]);
             simonsChoices[counter].classList.add('active');
         }, 200)
-    }, 1200);
+    }, delay);
 }
 
 
@@ -76,7 +91,8 @@ function getRandomButton(){
     highlightButtons();
 }
 
-function startGame(){
+function startGame(del){
+    delay = del;
     //Hides the Game Over message so you cant keep restarting the game.
     document.getElementById('footer').style.display = 'none';
     //resets variables used
@@ -87,7 +103,19 @@ function startGame(){
 }
 
 //Adds start game function on click of new game button.
-document.getElementById('newGame').addEventListener('click', startGame);
+(function(elements){
+    document.getElementById('footer').removeChild(document.getElementById('newGame'));
+    for(var i=0; i < elements.length; i++){
+        var el = document.createElement('button');
+        el.id = 'new'+elements[i][0];
+        el.innerText = 'New '+elements[i][0]+ ' Game';
+        el.value = elements[i][1];
+        el.addEventListener('click', function(e){
+            startGame(e.target.value);
+        })
+        document.getElementById('footer').appendChild(el);
+    }
+})([['Easy', 1000], ['Medium', 700],['Hard', 400]]);
 
 //Looping through the array and adding a simple click event to make sure they're wired up correctly.
 for(var i = 0; i < buttons.length; i++){
@@ -97,6 +125,7 @@ for(var i = 0; i < buttons.length; i++){
     buttons[i].addEventListener('mousedown', function(e){
         //if the game isn't ready for the player to click don't do anything when they click
         if(canClick){
+    playSound(e.target);
         e.target.classList.add('active');
         }
     })
@@ -109,3 +138,7 @@ for(var i = 0; i < buttons.length; i++){
         }
     })
 }
+
+
+
+

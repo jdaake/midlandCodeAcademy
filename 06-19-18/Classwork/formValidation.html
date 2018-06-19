@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Validate Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .loginHeader{
+       text-decoration: underline;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .form{
+        width: 50%;
+        min-width: 500px;
+        margin: 10px auto;
+    }
+    .formSection{
+        display: block;
+        margin: 5px auto;
+    }
+    .formSection label{
+        width: 200px;
+    }
+</style>
+</head>
+
+<body>
+    <h2 class="loginHeader text-center">Login</h2>
+    <form onsubmit="validateForm()" class="form text-center">
+        <div class="formSection">
+        
+    </div>
+    <div class="formSection">
+        <label for="username">Username:</label>
+        <input type="username" id="username" placeholder="Username">
+        
+    </div>
+    <div class="formSection">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+    </div>
+    <div class="formSection">
+        <label for="confirmPassword">Password:</label>
+        <input type="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+    </div>
+
+        <input type="submit" value="Signup">
+    </form>
+</body>
+<script>
+    
+    //This function will run upon form submission. It will need to do the following things:
+    // 1) Verify that the username is at least 6 characters long (the requirement for this fictitious site)
+    // 2) Verify that the password is at least 8 characters long (also the requirement for this site)
+    // 3) Verify that the password has at least one uppercase character and one lowercase character
+    // 4) Verify that the password and confirm password inputs are identical
+    // 5) Stop the form from submitting until we verify all of the above.
+    function validateData(){
+
+
+
+
+
+    }
+
+
+</script>
+
+</html>
