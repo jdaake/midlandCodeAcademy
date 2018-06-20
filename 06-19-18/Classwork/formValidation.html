@@ -29,44 +29,72 @@
 </head>
 
 <body>
-    <h2 class="loginHeader text-center">Login</h2>
-    <form onsubmit="validateForm()" class="form text-center">
+    <h2 class="loginHeader text-center">Signup</h2>
+    <form id="form" class="form text-center">
         <div class="formSection">
-        
+
     </div>
     <div class="formSection">
         <label for="username">Username:</label>
         <input type="username" id="username" placeholder="Username">
-        
+        <span id="userError"></span>
     </div>
     <div class="formSection">
         <label for="password">Password:</label>
         <input type="password" id="password" placeholder="Password">
+        <span id="pswdError"></span>
     </div>
     <div class="formSection">
         <label for="confirmPassword">Password:</label>
-        <input type="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <span id="confirmError"></span>
     </div>
-
         <input type="submit" value="Signup">
     </form>
 </body>
 <script>
-    
+
     //This function will run upon form submission. It will need to do the following things:
     // 1) Verify that the username is at least 6 characters long (the requirement for this fictitious site)
     // 2) Verify that the password is at least 8 characters long (also the requirement for this site)
     // 3) Verify that the password has at least one uppercase character and one lowercase character
     // 4) Verify that the password and confirm password inputs are identical
     // 5) Stop the form from submitting until we verify all of the above.
-    function validateData(){
-
-
-
-
-
+  document.getElementById('form').addEventListener('submit', function(e){
+    e.preventDefault();
+    var username = document.getElementById('username');
+    var password = document.getElementById('password');
+    var confirmPassword = document.getElementById('confirmPassword');
+    var usernameError = document.getElementById('userError');
+    var pswdError = document.getElementById('pswdError');
+    var confirmError = document.getElementById('confirmError');
+    var errors = false;
+    if (username.value.length < 6){
+      usernameError.innerHTML = 'Username must have more than 5 characters';
+      username.style.borderColor = 'red';
+      errors = true;
     }
+    if (password.value.length < 8) {
+      pswdError.innerHTML = 'Password must have more than 7 characters ';
+      password.style.borderColor = 'red';
+      errors = true;
+    }
+    //Cycle through all then give messages for any errors.
+    if(password.value.toUpperCase() === password.value || password.value.toLowerCase() === password.value){
+      pswdError.innerHTML += 'Password must have Uppercase & Lowercase letters';
+      password.style.borderColor = 'red';
+      errors = true;
+    }
+    if (password.value !== confirmPassword.value) {
+      confirmError.innerHTML = 'Passwords must match';
+      confirmPassword.style.borderColor = 'red';
+      errors = true;
+    }
+if(!errors){
+  console.log('Form is submitting');
+}
 
+  });
 
 </script>
 
