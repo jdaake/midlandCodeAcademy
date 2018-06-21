@@ -3,7 +3,7 @@
 So this homework is going to be a little bit different as it's a lot more free form than some in the past:
 
 ## First
-* Find an API to use (public with key, public without key, pay, it doesn't matter).
+* Find an API to use (public with key, public without key, pay, it doesn't matter). It just can't be identical to the in class work.
 * Be prepared to discuss why you chose that API.
 * Build a clean site where your API data will be shown.
     * This should be built from scratch with HTML and Styling chosen by you.
