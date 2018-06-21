@@ -14,9 +14,24 @@
 <body>
     <h1 class="text-center">The World Cup Final is on Jul 15 2018 - 6:00PM Local Moscow Time</h1>
     <h2 class="text-center" id="timeUntil">LOCAL TIME UNTIL FINAL</h2>
-<div class="text-center">
-    <input type="radio" value="24" name="timeType" id="24hr" checked="checked"><label for="24hr">24hr Time</label>
-    <input type="radio" value="12" name="timeType" id="12hr"><label for="12hr">12hr Time</label>
-</div>
 </body>
+
+<script>
+var gameTime= new Date('July 15, 2018 06:00:00')
+
+function updateTime(){
+  var diff = gameTime - Date.now();
+  var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  var span = document.getElementById('timeUntil');
+  span.innerText = `${Math.floor(days)} days, ${Math.floor(hours)} hours, ${Math.floor(minutes)} minutes,
+  ${Math.floor(seconds)} seconds until the final game`
+}
+updateTime();
+window.setInterval(updateTime, 1000);
+
+
+</script>
 </html>
