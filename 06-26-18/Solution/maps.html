@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#map{
+  height: 500px;
+}
+</style>
+
+</head>
+<body>
+
+
+
+
+<form>
+  <input type="text" id="longitude" />
+  <input type="text" id="latitude" />
+  <input type="button" id="submit" value="Submit"/>
+</form>
+<button id="button">Press ME!</button>
+<div id="map"></div>
+<input id="latInput">
+<input id="lngInput">
+<script>
+
+    function initMap() {
+    }
+
+    var button = document.getElementById('button');
+    button.addEventListener('click', function(){
+      var map;
+      var latInput = document.getElementById('latInput')
+      var longInput = document.getElementById('lngInput')
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: parseFloat(latInput.value), lng: parseFloat(longInput.value)},
+        zoom: 8
+      });
+    })
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOURKEYHERE&callback=initMap"
+  async defer></script>
+</body>
+</html>
