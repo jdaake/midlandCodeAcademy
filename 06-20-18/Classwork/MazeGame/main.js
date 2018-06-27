@@ -1,41 +1,43 @@
 var size = {
   height: window.innerHeight,
   width: window.innerWidth
-}
+};
 var gameStarted = false;
-function createDiv(func, className){
+for (var i = 0; i < 75; i++) {
+  var div = document.createElement("div");
+  div.style.position = "absolute";
+  div.style.top = Math.floor(Math.random() * (size.height - 30)) + "px";
+  div.style.left = Math.floor(Math.random() * (size.width - 30)) + "px";
+  div.addEventListener("mouseenter", function() {
+    if (gameStarted) {
+      endGame("loser");
+    }
+  });
+  document.querySelector("body").appendChild(div);
+}
+
 var div = document.createElement("div");
-if(className){
-  div.classList.add(className);
-}
-div.style.position= "absolute";
-div.style.top = Math.floor(Math.random() * (size.height- 30)) +"px";
-div.style.left = Math.floor(Math.random() * (size.width- 30)) +"px";
-div.addEventListener("mouseenter", func);
-document.querySelector("body").appendChild(div);
-}
-
-function endWinner(){
-  if(gameStarted){
-    gameStarted = false;
-    alert("You are a winner!");
-  }
-}
-
-function endLoser(){
-  if(gameStarted){
-    gameStarted = false;
-    alert("You are a loser!");
-  }
-}
-
-function startGame(){
+div.classList.add("start");
+div.style.position = "absolute";
+div.style.top = Math.floor(Math.random() * (size.height - 30)) + "px";
+div.style.left = Math.floor(Math.random() * (size.width - 30)) + "px";
+div.addEventListener("mouseenter", function() {
   gameStarted = true;
-}
+});
+document.querySelector("body").appendChild(div);
 
-for (var i = 0; i<75; i++){
-  createDiv(endLoser);
-}
+var div = document.createElement("div");
+div.classList.add("end");
+div.style.position = "absolute";
+div.style.top = Math.floor(Math.random() * (size.height - 30)) + "px";
+div.style.left = Math.floor(Math.random() * (size.width - 30)) + "px";
+div.addEventListener("mouseenter", function() {
+  if (gameStarted) {
+    endGame("winner");
+  }
+}) + document.querySelector("body").appendChild(div);
 
-createDiv(startGame, 'start');
-createDiv(endWinner, 'end');
+function endGame(result) {
+  gameStarted = false;
+  alert("You are a " + result);
+}
