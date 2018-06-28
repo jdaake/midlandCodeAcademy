@@ -1,23 +1,35 @@
-document.getElementById('submit').addEventListener("click", function (e) {
-      e.preventDefault();
-          var search = document.getElementById('search').value;
-          var requestString = `http://www.omdbapi.com/?apikey=25a302e3&s=${search}&type=movie`;
-          var year = document.getElementById('year').value;
-          var response;
-          if (parseInt(year) > 1900){
-            requestString += "&y="+year
-            }
+$('#submit').on("click", function(e){
+  e.preventDefault();
+  var search = $("#search").val();
+  var requestString = `http://www.omdbapi.com/?apikey=25a302e3&s=${search}&type=movie`;
+  var year = $("#year").val();
+  if(parseInt(year) > 1900){
+    requestString += `&y=${year}`;
+  }
 
-            // REPLACE the XHR request with a fetch Request
-            // THEN use jQuery to attach the results to the DOM.
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', requestString, true);
-            // xhr.setRequestHeader("Content-Type", "application/json");
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === 4) {
-                  response = JSON.parse(xhr.response);
-                    console.log("afterresponse", response.Search);
-                }
-            };
-            xhr.send();
-         })
+  fetch(requestString)
+  .then(function(res){
+    return res.json()
+  })
+  .then(function(res){
+    $("#movies").empty();
+    console.log(res);
+    if(res.Search){
+      $.each(res.Search, function(id, val){
+        var li = `<li>
+          <div class="poster-wrap">
+            <a href="http://www.imdb.com/title/${val.imdbID}" target="blank">
+              <i class="material-icons poster-placeholder">crop_original</i>
+            </a>
+          </div>
+          <span class="movie-title">${val.Title}</span>
+          <span class="movie-year">${val.Year}</span>
+        </li>`
+        $("#movies").append(li);
+      })
+    }
+    else{
+      $("#movies").html("No movies Found");
+    }
+  })
+});
