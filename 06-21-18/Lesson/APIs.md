@@ -14,5 +14,5 @@
 * [OMDBApi](http://www.omdbapi.com/) - Great for movie information
 * [OpenWeather](https://www.openweathermap.org/api) - Requires an API key but an awesome resource.
 * [Google Maps](https://cloud.google.com/maps-platform/) - Free to use for a set number of pulls and an incredibly robust API.
-* [SO.. MANY... MORE......](https://github.com/toddmotto/public-apis#geocoding) - Great resource for a ton more than what's listed above.
+* [SO.. MANY... MORE......](https://github.com/toddmotto/public-apis) - Great resource for a ton more than what's listed above.
 
