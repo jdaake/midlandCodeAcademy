@@ -1,0 +1,79 @@
+.hidden{
+    display: none;
+}
+.choice.matched{
+    cursor: auto;
+    visibility: hidden;
+}
+
+#board{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.choice{
+    margin: 10px;
+    border: 1px solid black;
+    height: 150px;
+    flex-basis: 150px;
+    cursor: pointer;
+}
+
+.bearImage{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#numMatches, #submit{
+    display: block;
+    margin: 10px auto;
+
+}
+
+/* flipping */
+
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.matching .flipper{
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back, .flipper {
+	width: 150px;
+	height: 150px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.25s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}

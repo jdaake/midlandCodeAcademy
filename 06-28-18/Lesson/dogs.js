@@ -25,7 +25,6 @@ $('#getRandom').on('click', function(){
   getRandom();
 });
 
-
 function getRandom(){
   console.log('Clicked');
 if($(select).val() === 'INVALID'){
