@@ -10,8 +10,8 @@ fetch('https://dog.ceo/api/breeds/list/all')
     if(val.length >0){
       var optGroup = $('<optgroup/>', {label: key.toUpperCase()})
 
-      $.each(val, function(key, val){
-        $(optGroup).append($('<option/>', {value: val}).html(val.charAt(0).toUpperCase() + val.slice(1)));
+      $.each(val, function(subKey, subVal){
+        $(optGroup).append($('<option/>', {value: key+'/'+subVal}).html(subVal.charAt(0).toUpperCase() + subVal.slice(1)));
       })
       $(select).append(optGroup);
     }
