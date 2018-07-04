@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memory Matching Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+    * {
+      box-sizing: border-box;
+      letter-spacing: 1px;
+    }
+      body{
+        background: lightcyan;
+            }
+    .container {
+      width: 800px;
+      height: 60px;
+      margin: 25px auto;
+
+     }
+    .hidden{
+      display: none;
+     }
+    .text-center{
+      text-align: center;
+     }
+    #header{
+     text-align: center;
+     font-size: 60px;
+     color: darkblue;
+    }
+     #submit{
+      background-color: plum;
+      color: darkblue;
+      font-size: 30px;
+      font-weight: 500;
+     }
+    .card {
+      float: left;
+      margin: 15px;
+      height: 175px;
+      width: 120px;
+      background: blue;
+      text-align: center;
+      border-radius: 5px;
+      border: 5px solid darkblue;
+      box-shadow: 5px 5px 10px purple;
+      /* background-image: url('ink.jpg'); */
+      background-size: cover;
+    }
+    .card:not(.unmatched){
+      visibility: hidden;
+    }
+    .card:hover {
+      cursor: pointer;
+      border: 5px solid purple;
+      box-shadow: 0 0 20px 3px aqua;
+    }
+
+    .card p {
+      font-size: 48px;
+      color: black;
+      font-weight: 1000;
+      }
+    </style>
+</head>
+  <body>
+   <div id="header">MEMORY MATCHING GAME</div>
+   <div class="startGameContainer" id="startGame">
+   <button class="submit text-center" id="submit">Start Game</button>
+   <div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   <div class="card unmatched"></div>
+   </div>
+   </div>
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+   <script>
+   $(document).ready(function() {
+     var app = {
+       cards: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12],   //Array of Cards
+       init: function() {   //Calling the function
+         app.shuffle();
+       },
+       shuffle: function() {   //shuffle function
+         var random = 0;
+         var temp = 0;
+         for (i = 1; i < app.cards.length; i++) {  //Loop through the array
+           random = Math.round(Math.random() * i);  //generate a random number and round it
+           temp = app.cards[i];  //store current number in app.cards and set in temporary variable
+           app.cards[i] = app.cards[random];  //set app.cards = random
+           app.cards[random] = temp;  //set random number to temporary number
+         }
+         app.assignCards();   //Assign Cards
+         console.log('Shuffled Card Array: ' + app.cards);
+       },
+       assignCards: function() {
+         $('.card').each(function(index) {   //Automatically pass in the index number
+           $(this).attr('data-card-value', app.cards[index]);   //Assign Data Value to each card
+         });
+         app.clickHandlers();  //At this point they are shuffled and assigned
+       },
+       clickHandlers: function() {
+         $('.card').on('click', function() {  //On click of card
+           $(this).html('<p>' + $(this).data('cardValue') + '</p>').addClass('selected');  //value of card is displayed And how many are selected
+           app.checkMatch();
+         });
+       },
+       checkMatch: function() {
+         if ($('.selected').length === 2) {  // If 2 items have the class selected...
+           if ($('.selected').first().data('cardValue') == $('.selected').last().data('cardValue')) { //1st method displays 1st card, 2nd method displays 2nd card  Check to see if they match...
+             $('.selected').each(function() { //If they match..
+               $(this).show({opacity: 0}).removeClass('unmatched');  //Change opacity to 0, By setting to unmatched, can count to see how many are left.
+             },1000);
+             $('.selected').each(function() {   //Card selected
+               $(this).removeClass('selected');   // is removed
+             });
+             app.checkWin();
+           } else {
+             setTimeout(function() {  // If cards are not matched the cards flip back
+               $('.selected').each(function() {
+                 $(this).html('').removeClass('selected');
+               });
+             }, 1000);
+           }
+         }
+       },
+       checkWin: function() {
+         if ($('.unmatched').length === 0) {  //If unmatched cards = 0...
+           $('.container').html('<h1>You Just Won!</h1>');
+         }
+       }
+     };
+     app.init();  //Function is called
+   });
+
+
+   </script>
+ </body>

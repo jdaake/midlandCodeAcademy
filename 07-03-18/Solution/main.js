@@ -40,7 +40,6 @@
                             <div class="front">
                             </div>
                             <img class='back bearImage' src="">
-                            </div>
                         </div>`);
 
       $(choice).on("click", function(e) {
