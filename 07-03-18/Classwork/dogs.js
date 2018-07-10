@@ -1,5 +1,5 @@
 var select = $('#breeds');
-var images;
+var selectedBreed;
 fetch('https://dog.ceo/api/breeds/list/all')
 .then(function(res){
   return res.json()
@@ -22,20 +22,46 @@ fetch('https://dog.ceo/api/breeds/list/all')
 })
 
 $('#getRandom').on('click', function(){
+  if($(select).val() === 'INVALID' || selectedBreed === $(select).val()){
+    return;
+  }
+  selectedBreed = $(select).val();
   getRandom();
 });
 
 function getRandom(){
-  console.log('Clicked');
-if($(select).val() === 'INVALID'){
-  return;
-}
+
 fetch(`https://dog.ceo/api/breed/${$(select).val()}/images`)
 .then(res => res.json())
 .then(res=>{
-  console.log(res);
-  images = res.message;
-  $('#picContainer').append($('<img/>', {src : images[Math.floor(Math.random()* images.length)],
-    class: 'col-6 img-fluid'}))
+  var innerCarousel = $('#innerCarousel')
+  var images = get20(res.message);
+  $(innerCarousel).empty();
+  $($('.d-none')[0]).removeClass('d-none');
+  $(images).each(function(idx, val){
+if(val){
+    $(innerCarousel)
+    .append($('<div/>', {class: 'carousel-item'})
+    .append($('<img/>', {src : images[idx], class: 'd-block text-center img-fluid'})))
+  }
+  });
+  $('.carousel-item').first().addClass('active');
+  $(innerCarousel).carousel();
 })
 }
+
+function get20(array){
+  var number = Math.floor(array.length/20);
+  var tempImages = [];
+  for(var i = 0; i < 20; i++){
+    tempImages.push(array[(Math.floor(Math.random() * number))+(number*i)])
+  }
+  return tempImages;
+}
+
+
+
+
+// <div class="carousel-item">
+//   <img class="d-block w-100" src="...">
+// </div>
