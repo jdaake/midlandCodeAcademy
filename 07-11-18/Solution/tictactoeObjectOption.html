@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    .board{
+      clear: left;
+      width: 300px;
+      height: 300px;
+      margin: auto;
+    }
+    .box{
+      float:left;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+      font-size: 50px;
+    }
+    .box:not(.X), .box:not(.O){
+      cursor: pointer;
+    }
+
+
+    .bottom{
+      border-bottom: 1px solid black;
+    }
+    .top{
+       border-top: 1px solid black;
+      }
+    .right{
+      border-right: 1px solid black;
+    }
+    .left{
+      border-left: 1px solid black;
+    }
+
+    .right:not(.left), .left:not(.right){
+      width: 99px;
+    }
+    .right.left{
+      width: 98px;
+    }
+
+    .top:not(.bottom), .bottom:not(.top){
+      height: 99px;
+    }
+    .top.bottom{
+      height: 98px;
+    }
+    #outcome{
+      min-height: 75px;
+      text-align: center;
+      margin: auto;
+    }
+    .btn{
+      margin: 20px auto;
+      display: block;
+    }
+    .hidden{
+      display: none;
+    }
+    .player{
+      width: 25%;
+      float: left;
+      text-align: center;
+      margin-left: calc(12.5% - 1px);
+      margin-right: calc(12.5% - 1px);
+      margin-bottom: 10px;
+      height: 20px;
+      border: 1px solid black;
+    }
+    .active{
+      background-color: grey;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="outcome"></div>
+    <div class="player" id="X">X</div>
+    <div class="player" id="O">O</div>
+    <div class="board" id="board">
+    <div class="box bottom right" id="row1" value="col1"></div>
+    <div class="box bottom left right" id="row1" value="col2"></div>
+    <div class="box bottom left" id="row1" value="col3"></div>
+
+    <div class="box top bottom right" id="row2" value="col1"></div>
+    <div class="box top bottom right left" id="row2" value="col2"></div>
+    <div class="box bottom left top" id="row2" value="col3"></div>
+
+    <div class="box top right" id="row3" value="col1"></div>
+    <div class="box top left right" id="row3" value="col2"></div>
+    <div class="box left top" id="row3" value="col3"></div>
+  </div>
+  <button class="btn" id="button">Restart Game</button>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script src="tictactoeObjectOption.js"></script>
+  </body>
+</html>

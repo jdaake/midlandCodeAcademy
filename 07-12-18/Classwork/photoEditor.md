@@ -43,5 +43,4 @@ Make a 'photo editor' that allows a user to load up any photo by URL and adjust 
 * Add the following filter options with appropriate units
   * Blur
   * Hue*rotate
-* Allow users to upload an image from their computer
 * Allow user to download newly edited image

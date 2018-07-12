@@ -65,7 +65,6 @@
       width: 25%;
       float: left;
       text-align: center;
-      display: inline-block;
       margin-left: calc(12.5% - 1px);
       margin-right: calc(12.5% - 1px);
       margin-bottom: 10px;
@@ -83,23 +82,23 @@
     <div class="player" id="X">X</div>
     <div class="player" id="O">O</div>
     <div class="board" id="board">
-    <div class="box bottom right" id="row1" value="col1"></div>
-    <div class="box bottom left right" id="row1" value="col2"></div>
-    <div class="box bottom left" id="row1" value="col3"></div>
+    <div class="box bottom right" id="0"></div>
+    <div class="box bottom left right" id="1"></div>
+    <div class="box bottom left" id="2"></div>
 
-    <div class="box top bottom right" id="row2" value="col1"></div>
-    <div class="box top bottom right left" id="row2" value="col2"></div>
-    <div class="box bottom left top" id="row2" value="col3"></div>
+    <div class="box top bottom right" id="3"></div>
+    <div class="box top bottom right left" id="4"></div>
+    <div class="box bottom left top" id="5"></div>
 
-    <div class="box top right" id="row3" value="col1"></div>
-    <div class="box top left right" id="row3" value="col2"></div>
-    <div class="box left top" id="row3" value="col3"></div>
+    <div class="box top right" id="6"></div>
+    <div class="box top left right" id="7"></div>
+    <div class="box left top" id="8"></div>
   </div>
   <button class="btn" id="button">Restart Game</button>
   <script
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
-  <script src="tictactoe.js"></script>
+  <script src="tictactoeArrayOption.js"></script>
   </body>
 </html>
