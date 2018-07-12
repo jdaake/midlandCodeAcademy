@@ -1,7 +1,7 @@
 (function(){
     var buttons = document.getElementsByClassName('button');
     for(var i=0; i < buttons.length; i++){
-    
+
         buttons[i].addEventListener("click", function(e){
             move(e.target.id);
         })
@@ -15,10 +15,9 @@ function generateMap(width, height){
     map.x = width;
     map.y = height;
     player = {x: Math.floor(Math.random() * width), y: Math.floor(Math.random()* height)}
-    console.log(player)
     destination = {x: Math.floor(Math.random() * width), y: Math.floor(Math.random()* height)}
     checkDistance();
-}   
+}
 
 function move(direction){
     switch(direction.toLowerCase()){
@@ -28,19 +27,18 @@ function move(direction){
         case "south":
             checkValidity('y', -1, direction);
             break;
-        case "west": 
+        case "west":
             checkValidity('x', -1, direction);
             break;
         case "east":
             checkValidity('x', 1, direction);
             break;
         default:
-            console.log("Please chose a valid move. Must me north, south, east, or west");
+            console.log("Please choose a valid move. Must be north, south, east, or west");
     }
 }
 
 function checkValidity(axis, change, direction){
-    console.log(player, (player[axis] + change), map[axis] )
     if((player[axis] + change) > map[axis] || (player[axis] + change) < 0){
         console.log("You can't move any further "+ direction)
     }
