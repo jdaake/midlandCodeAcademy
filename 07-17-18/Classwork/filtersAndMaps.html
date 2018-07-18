@@ -17,7 +17,7 @@
   </head>
   <body>
 
-    <button class='btn' id='loadDataButton'>Load Data</button>
+    <button class='btn' id='loadButton'>Load Data</button>
 
     Filter by City <input type='text' id='city'>
     <div class="btn-group" role="group" aria-label="Basic example">
@@ -37,6 +37,7 @@
       <tbody id='data'>
 
 
+
       </tbody>
     </table>
 
@@ -45,16 +46,55 @@
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script>
+$(document).ready(function(){
+        var originalUsers;
         //TODO: Load from https://jsonplaceholder.typicode.com/users on button click
-        
-        
-        //TODO: Change the users names from a single string to a first and last name
+        $("#loadButton").on("click", function(){
+          $.getJSON(`https://jsonplaceholder.typicode.com/users`, function(results){
+            originalUsers = results.map(splitName);
+            populateData(originalUsers);
+          });
+        })
 
+        //TODO: Change the users names from a single string to a first and last name
+        function splitName(user){
+          var name = user.name.split(" ");
+          user.firstName = name[0];
+          user.lastName = name[1];
+
+          return user;
+        }
 
         //TODO: Populate the required data to the screen
+          function populateData(users) {
+            $("#data").empty();
+            for (var i in users) {
+              $("#data").append(`<tr>
+                <td>${users[i].firstName}</td>
+                <td>${users[i].lastName}</td>
+                <td>${users[i].email}</td>
+                <td>${users[i].address.city}</td>
+              </tr>`);
+            }
+          }
 
 
-        //TODO: Allow the user to filter the city by a text string
+        //TODO: Allow the user to filter the city by a text string filterByCity, clearFilter
+            $("#filterByCity").on("click", function(){
+              var filteredUsers = originalUsers.filter(filterUsers)
+              populateData(filteredUsers);
+            })
+
+            $("#clearFilter").on("click", function(){
+              $("#city").val("");
+              populateData(originalUsers);
+            })
+
+            function filterUsers(user){
+              return user.address.city.toLowerCase().includes($('#city').val().toLowerCase())
+            }
+
+})
     </script>
   </body>
 </html>
