@@ -1,0 +1,18 @@
+body{
+    background-color: slategray;
+}
+
+.card-img{
+    max-width: calc(100% / 3) !important;
+    max-height: calc(100% / 3) !important;
+    float: left;
+    border-radius: 0;
+}
+
+a.btn{
+    color: white !important;
+}
+
+.card{
+    border: none !important;
+}
