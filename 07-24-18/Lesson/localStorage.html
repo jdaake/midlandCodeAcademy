@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>localStorage</title>
+  </head>
+  <body>
+
+    <div id='storedData'></div>
+    <button id='fetch'>Load Data</button>
+
+    <script>
+      var bearsInNA = ["Black Bear", "Brown Bear", "Polar Bear"];
+      localStorage.setItem('bearsInNA', JSON.stringify(bearsInNA) )
+
+
+      localStorage.setItem('bearsInSA', 'Andean Bear');
+
+      var button = document.getElementById('fetch');
+      button.addEventListener('click', loadBears);
+
+      function loadBears(){
+        // 1 get reference to the <p>
+        var textContainer = document.getElementById('storedData');
+
+        // 2 extracted stored data from localStorage
+        var data = JSON.parse(localStorage.getItem('bearsInNA'));
+        console.log(data);
+
+        // 2A. loop though the array and print each item
+        for(var i = 0; i < data.length; i++){
+          var datum = data[i];
+
+          // 3 add data to the HMTL in the <p>
+          textContainer.innerHTML += `<p>${datum}</p>`;
+        }
+
+
+
+      }
+    </script>
+
+  </body>
+</html>
