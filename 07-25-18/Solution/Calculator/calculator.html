@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator Alligator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="calculator.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <h3 class="col-12 text-center">Calculator App</h3>
+    <div class="calculator mx-auto mt-4 p-1 rounded">
+        <div class="my-2 px-2 mx-auto rounded text-right" id="screen"></div>
+        <div class="d-flex justify-content-center">
+            <button class=" btn btn-success" id="clearEntry">CE</button>
+            <button class=" btn btn-success" id="clearAll">C</button>
+            <button class=" btn btn-success" id="backspace">⌫</button>
+            <button class=" btn btn-success action" id="divide">÷</button>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class=" btn btn-success number" id="7">7</button>
+            <button class=" btn btn-success number" id="8">8</button>
+            <button class=" btn btn-success number" id="9">9</button>
+            <button class=" btn btn-success action" id="multiply">X</button>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class=" btn btn-success number" id="4">4</button>
+            <button class=" btn btn-success number" id="5">5</button>
+            <button class=" btn btn-success number" id="6">6</button>
+            <button class=" btn btn-success action" id="subtract">-</button>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class=" btn btn-success number" id="1">1</button>
+            <button class=" btn btn-success number" id="2">2</button>
+            <button class=" btn btn-success number" id="3">3</button>
+            <button class=" btn btn-success action" id="add">+</button>
+        </div>
+        <div class="d-flex justify-content-center mb-2">
+                <button class=" btn btn-success" id="plusMinus">±</button>
+            <button class=" btn btn-success number" id="0">0</button>
+            <button class=" btn btn-success" id="decimal">.</button>
+            <button class=" btn btn-success action" id="equals">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="">
+        <input type="text" name="degree" id="temp" placeholder="temperature">
+        <select id="convertTo">
+         <option value="fahrenheit">Convert to Fahrenheit</option>
+         <option value="celsius">Convert to Celsius</option>
+       </select>
+       <button type="button" name="button" id="convert">Convert</button>
+    </div>
+    <div id="converted"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+    // CLICK BUTTON
+
+
+$('#convert').on('click', function(){
+var temp = parseFloat($("#temp").val())
+  if ($('#convertTo').val() == 'fahrenheit'){
+    convertToFah(temp);
+  } else {
+  convertToCel(temp);
+}
+})
+
+function convertToCel(temp){
+  var newTemp = (temp - 32) * (5/9);
+  displayTemp(temp, newTemp, 'F', 'C')
+}
+
+function convertToFah(temp){
+  var newTemp = temp * (9/5) + 32;
+  displayTemp(temp, newTemp, 'C', 'F')
+}
+function displayTemp(oldTemp, newTemp, from, to){
+  $('#converted').html(`${oldTemp}°${from} is ${newTemp}° ${to}`)
+}
+
+
+//"(original number)° (F/C) is (Calculated Number)° (C/F)"
+
+
+    // Add to DOM:
+
+
+    </script>
+  </body>
+</html>
