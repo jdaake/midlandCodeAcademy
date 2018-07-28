@@ -1,0 +1,24 @@
+.btn{
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    padding: .75rem;
+    border-color: yellow;
+}
+.btn:hover{
+    border-color: yellowgreen
+}
+
+.calculator{
+    width: 340px;
+    background-color: #339966;
+}
+
+#screen{
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    width: 313px;
+    background-color: yellowgreen;
+}
