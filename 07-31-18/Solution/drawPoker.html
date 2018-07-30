@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="drawPoker.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="drawPoker.js"></script>
+</head>
+
+<body>
+    <h2 class="text-center">Draw Poker</h2>
+    <div class="container-fluid my-4">
+        <div class="playingCards d-flex justify-content-center" id="playerOne">
+        </div>
+        <div class="col-12 text-center" id="playerOneInstructions">
+            <h4>Player One, select the cards you wish to discard</h4>    
+            <button class="btn btn-danger btn-sm" id="playerOneDiscard">Done Selecting</button>
+        </div>
+    </div>
+    <div class="container-fluid my-4">
+            <div class="playingCards d-flex justify-content-center" id="playerTwo">
+            </div>
+            <div class="col-12 text-center d-none" id="playerTwoInstructions">
+                <h4>Player Two, select the cards you wish to discard</h4>    
+                <button class="btn btn-danger btn-sm" id="playerTwoDiscard">Done Selecting</button>
+            </div>
+    </div>
+    <div class="col-12 text-center d-none" id="playAgain">
+        <button class="btn btn-secondary btn-lg" id="startGame">Play Again?</button>
+    </div>
+</body>
+
+</html>
