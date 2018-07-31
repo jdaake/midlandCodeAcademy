@@ -103,6 +103,7 @@ There are 4 different `README` files for this final project.
     3. Any other structure you prefer is fine, but files should be neatly and logically organized.
 
 ## Useful Links
+* [Coolors](https://coolors.co/) color scheme generation tool
 * MDN Documents
     * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
     * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)

@@ -2,10 +2,10 @@
 ## Bonus Goals
 
 ### Login Page Bonus Goals
-* Create a '2 factor authentication' input and simulates a text message to the user and has them enter it in on that Page
-  * actually generate a random 6 digit number
-  * display in the console to simulate 'getting a text'
-  * Ensure that the number that was generated matches the number in the 2factor auth input.
+* Create a '2 factor authentication' input for a simulated text message to the user that is required as part of the login process.
+  * Actually generate a random 6 digit number.
+  * Display in the console to simulate 'getting a text'.
+  * Ensure that the number that was generated matches the number in the 2 factor auth input.
 
 ### Library Page Bonus Goals
 * If a user is under 18 years old, don't allow them to search for `R` rated gifs. 
@@ -31,13 +31,13 @@
     * Confirm Password
     * Account type (have a brief description of the cost and usage for basic and advanced users). If you want an extra challenge, add this to a tooltip for the Account type `label`
     * Date of Birth
-* Copy and paste the `USERS` const from the login readme (also found [here](./assets/users.json)). This will function as your "database" to check against. When a user submits the signup form, verify the following.
-    * The user must have a valid email address (can be fake, it just has to have the right format). If you're lost look online for options.
+* Copy and paste the `USERS` `const` from the login readme (also found [here](./assets/users.json)). This will function as your "database" to check against. When a user submits the signup form, verify the following.
+    * The user must have a valid email address (can be fake, it just has to have the right format). If you're lost, look online for options.
     * The password in the `Password` and `Verify Password` fields must match.
     * The password must be at least 6 characters long and have at least one uppercase and one lowercase letter.
     * They must be at least 16 years old. (Use one or more inputs for birthdate)
     * The role must be either `basic` or `advanced` if it's anything else, it's invalid.
-    * No user exists with that email address. 
+    * Ensure that a user doesn't already exist with that email address. 
 * If one or more of the above errors exist, add the error message(s) to the DOM and remove them on each signup attempt so you can populate new errors.
 * If no errors were found, show a "Thanks for signing up! Once you've verified your email address you can go here (link to `login.html`) to login!" message.
     * Log the new user to the console to make sure it follows the same pattern as the others.

@@ -11,7 +11,7 @@ This page should be the section where the user can search for Gifs and view the 
     * Search:
       * Search string: Required
       * Limit: you can have this be a set number, or a slider, or a dropdown with several options.
-      * Offest: This will be a default of `0`.
+      * Offset: This will be a default of `0`.
       * Rating: Dropdown defaulting to PG with at LEAST 2 of the following options (in addition to PG): [`Y`, `G`, `PG-13`, `R`]
       * Language: This should default to `en` for now.
     * Translate: 
@@ -20,8 +20,8 @@ This page should be the section where the user can search for Gifs and view the 
       * The tag to search for a random gif: Required
       * Rating: Dropdown defaulting to PG with at the following options (in addition to PG): [`Y`, `G`, `PG-13`, `R`]
 * The Results Section:
- * If for some reason no results are returned, have a message stating that fact and nothing else in this section. Similarly have a message if your response returned something other that a `200` level response (i.e. the server is unavailable etc.).
- * Have all of the results portrayed in a grid format with all items centered. Each grid element (the gif and pertinent information) should have the following:
+  * If for some reason no results are returned, have a message stating that fact and nothing else in this section. Similarly have a message if your response returned something other that a `200` level response (i.e. the server is unavailable etc.).
+  * Have all of the results portrayed in a grid format with all items centered. Each grid element (the gif and pertinent information) should have the following:
     1. The Gif as an actual moving GIF not just a still frame of the Gif
     2. The title of the gif
     3. The Date (in a standard format) that the gif was uploaded

@@ -1,15 +1,14 @@
 # Final Project
 ## Login Page
-A page with one purpose; allow the user to enter in an email address and a password. If the data is invalid, let the user know the information was incorrect so they can try again.
+A page with one purpose: allow the user to enter in an email address and a password. If the data is invalid, let the user know the information was incorrect so they can try again.
 
 * HTML
   * Use a Bootstrap `card` element that is centered on the page to display all of your form elements.
   * Include a fun logo right above your login form
   * Your form could include 2 `<input>`s, one with `type=email` and one with `type=password`
-    * The bootstrap docs have a nice template you [can copy](https://getbootstrap.com/docs/4.0/components/forms/) from here.
-  * There should also be a a `<input>` with the type of button to act as a submit button
-* Under the `card` create another div that is the same width as the card and also centered on the screen. Give this div an id of `errorContainer`. When the login attempt fails, we'll put the error message here.
-
+    * The bootstrap docs have a nice template you can copy from [here](https://getbootstrap.com/docs/4.0/components/forms/).
+  * There should also be an `<input>` with the type of button to act as a submit button
+  * Under the `card` create another div that is the same width as the card and also centered on the screen. Give this div an id of `errorContainer`. When the login attempt fails, we'll put the error message here.
 * JS
   * You may use vanilla Javascript or jQuery for the section. No preference is given
   * If a user is logged in, this page should change the `location.href` to the library page.
