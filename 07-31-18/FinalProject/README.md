@@ -1,13 +1,12 @@
+# Final Project
 # GIF Library Website
 
 ## Goal
-
 The goal of this project is to bring together everything we've talked about in this class so far. We'll use our knowledge of HTML, classes/ids, CSS selectors, the Bootstrap and jQuery libraries and general JavaScript knowledge to build a mock-up for a site that will look and feel functional. The expectation is that all usable code will be as DRY as possible. The final project should also be visually appealing. 
 
 We'll be using just about EVERYTHING we have learned thus far. There are probably examples of how some of this stuff works already out there but it would behoove you to build it without referring to any how-tos outside of the standard library / API / Bootstrap documents.
 
 ## READMEs
-
 There are 4 different `README` files for this final project.
 
 * The [README-index.md](./README-index.md) is for the main structure of the site and layout of the main index page. This section of the final will not include much JavaScript. It will mostly be utilizing HTML and CSS and the Bootstrap library. 

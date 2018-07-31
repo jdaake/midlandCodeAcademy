@@ -1,4 +1,4 @@
-# Final Project - Index Page
+# Final Project
 
 ## Index Page
 

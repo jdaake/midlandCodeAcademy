@@ -1,10 +1,6 @@
-# Users Page
-
-## Goal
-
+# Final Project
+## Library Page
 This page should be the section where the user can search for Gifs and view the options based off their search preference.
-
-## Basic Technical Goals
 
 ### Page Layout
 * The page itself should be separated into two distinct sections. One will be the search options, the other will be the area that the gifs themselves will be populated.

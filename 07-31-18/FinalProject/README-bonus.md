@@ -1,10 +1,13 @@
-## Login Page Bonus Goals
+# Final Project
+## Bonus Goals
+
+### Login Page Bonus Goals
 * Create a '2 factor authentication' input and simulates a text message to the user and has them enter it in on that Page
   * actually generate a random 6 digit number
   * display in the console to simulate 'getting a text'
   * Ensure that the number that was generated matches the number in the 2factor auth input.
 
-## Library Page Bonus Goals
+### Library Page Bonus Goals
 * If a user is under 18 years old, don't allow them to search for `R` rated gifs. 
     * Remove the `R` option from the dropdown
     * Replace it with `PG-13` in the query string if they add an `R` option through the chrome inspection tool.
@@ -17,7 +20,7 @@
     ``` 
 * Ensure that the `Translate` endpoint is still an option for non basic users. Also ensure you handle the case if a user manually adds the input information for `Translate` to the DOM.
 
-## Signup Page
+### Signup Page
 * Add a signup page styled and structured however you prefer. 
     * This should have a link at the top menu if no user is logged in.
     * Should have a link from the `login` page as well under the login form.
@@ -40,8 +43,8 @@
     * Log the new user to the console to make sure it follows the same pattern as the others.
     * Since we're not working with a database or a server they obviously won't get an email and their login information won't be saved. 
 
-## Admin Page
-### Add an admin section with styling and functionality you prefer.  This is a lot more freeform than the others as this will give you a chance to flex your creative muscles a little bit more. The minimum requirements are as follows: 
+### Admin Page
+#### Add an admin section with styling and functionality you prefer.  This is a lot more freeform than the others as this will give you a chance to flex your creative muscles a little bit more. The minimum requirements are as follows: 
 * If no user is logged in or the logged in user is NOT `role: "admin"` redirect them automatically to `login.html`
 * Have a link on the menu if user is logged in AND has `role: "admin"`
 * Display pertinent information in table form from the [users.json](./assets/users.json) file in assets.

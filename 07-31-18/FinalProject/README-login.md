@@ -1,8 +1,7 @@
-# Login Page
+# Final Project
+## Login Page
+A page with one purpose; allow the user to enter in an email address and a password. If the data is invalid, let the user know the information was incorrect so they can try again.
 
-A page with one purpose; allow the user to enter in an email address and a password. If the data is invalid, let the user know what information was incorrect so they can try again.
-
-# Basic Technical Goals
 * HTML
   * Use a Bootstrap `card` element that is centered on the page to display all of your form elements.
   * Include a fun logo right above your login form
