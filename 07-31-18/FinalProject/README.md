@@ -2,14 +2,14 @@
 # GIF Library Website
 
 ## Goal
-The goal of this project is to bring together everything we've talked about in this class so far. We'll use our knowledge of HTML, classes/ids, CSS selectors, the Bootstrap and jQuery libraries and general JavaScript knowledge to build a mock-up for a site that will look and feel functional. The expectation is that all usable code will be as DRY as possible. The final project should also be visually appealing. 
+The goal of this project is to bring together everything we've talked about in this class so far. We'll use our knowledge of HTML, classes/ids, CSS selectors, the Bootstrap and jQuery libraries and general JavaScript knowledge to build a mock-up for a site that will look and feel functional. The expectation is that all usable code will be as DRY as possible. The final project should also be visually appealing.
 
 We'll be using just about EVERYTHING we have learned thus far. There are probably examples of how some of this stuff works already out there but it would behoove you to build it without referring to any how-tos outside of the standard library / API / Bootstrap documents.
 
 ## READMEs
 There are 4 different `README` files for this final project.
 
-* The [README-index.md](./README-index.md) is for the main structure of the site and layout of the main index page. This section of the final will not include much JavaScript. It will mostly be utilizing HTML and CSS and the Bootstrap library. 
+* The [README-index.md](./README-index.md) is for the main structure of the site and layout of the main index page. This section of the final will not include much JavaScript. It will mostly be utilizing HTML and CSS and the Bootstrap library.
 
 * The [README-about.md](./README-about.md") file is for the about section of the site. It should have a simple explanation about the company as well as a series of reviews that can be sorted by location and rating.
 
@@ -21,23 +21,23 @@ There are 4 different `README` files for this final project.
 ## All Pages
 * You'll need to find sample images, a color scheme to use, custom fonts, etc.
 *  All of the copy (text) should be related to your product/service. This can be simple explanations and wordings but NO filler text/lorem ipsum should be used.
-*  No filler images should be used either. 
+*  No filler images should be used either.
 * There should be at least one commonality between all pages: the nav bar. This should be FIXED so it stays at the top even as the user scrolls down.
-    * We should use the Bootstrap navbar. It should have 3-5 options visible as outlined below: 
+    * We should use the Bootstrap navbar. It should have 3-5 options visible as outlined below:
         1. A 'Home' link that goes back to the `index.html` page (always visible)
         2. An 'About' link `about.html` link (always visible)
         3. A 'Login' link that goes to `login.html`. This should only be visible if a user is NOT logged in.
         4. A 'Logout' button that 'logs out' the current user and brings you to the `login.html` page. This should be visible ONLY if a user is logged in.
         5. A 'Library' link that brings you to `library.html`  this should ONLY be visible if a user is logged in.
     * Check out the [bootstrap documentation](https://getbootstrap.com/docs/4.0/components/navbar/) for the navbar for directions.
-    * The link to the login page should be floated to the right hand side of the navbar (hint: look up `float-right` in the bootstrap documentation).
+    * The link to the login page should be floated to the right hand side of the navbar (hint: add `ml-auto` to the class list of any of the ones you want to float-right and col-12 to the ul tag in your navbar).
 * Every page will need to import the Bootstrap CSS, the Bootstrap javascript files (all 3 of them) and your custom JS file for that specific page.
 
-## Recommended Order of Attack 
+## Recommended Order of Attack
 ### If it's easier for you, feel free to go in a different order.
 
 1. Start with the index and about sections and just add a login button to each for now.
-2. Then attack the login screen and the ability to store a logged in user. 
+2. Then attack the login screen and the ability to store a logged in user.
 3. After that, refactor the index and about pages to allow for the button to say login or logout and change functionality depending on if there is a user or not.
 4. Finally focus on the beast that is the library page as this will take the most time and you'll be on the home stretch at that point.
 
@@ -45,11 +45,11 @@ There are 4 different `README` files for this final project.
 ## Final Thoughts
 
 * All of us are here to support each other so don't be afraid to ask me or any other students questions as long as it's not just a "hey give me the code you got for X page".
-* You should utilize bootstrap and one or more shareable css files across all the pages (instead of one css file per page with repeated information). If there is custom styling that ONLY pertains to one page then you can have an extra css file for that page with ONLY the custom styling. 
+* You should utilize bootstrap and one or more shareable css files across all the pages (instead of one css file per page with repeated information). If there is custom styling that ONLY pertains to one page then you can have an extra css file for that page with ONLY the custom styling.
 * The layout has to be clean and visually pleasing but the colors are not set in stone. If you want to adjust them you're welcome to as long as it looks good.
 * All the CSS and JS should be outside of the `.html` files with no inline scripts or styling.
 * Comment any code for its functionality so that if you had to pick it back up after a while you could easily see what you were doing with the code.
-* File Structure Layout Options: 
+* File Structure Layout Options:
     1. Subpage directories
         * :clipboard: index.html
         * :page_facing_up: index.js
@@ -76,7 +76,7 @@ There are 4 different `README` files for this final project.
         * :file_folder: library
             * :page_facing_up: library.js
             * :clipboard: library.html
-    2. Top Folder with assets/js folder 
+    2. Top Folder with assets/js folder
         * :clipboard: index.html
         * :clipboard: about.html
         * :clipboard: login.html
@@ -119,11 +119,11 @@ There are 4 different `README` files for this final project.
          Slim Minified (Missing some jQuery utilites you may or may not use depending on approach)
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
         ```
-* Bootstrap: 
+* Bootstrap:
     * [Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-    * CDN Links 
+    * CDN Links
         ```html
-        CSS 
+        CSS
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         ```
         ```html
@@ -138,5 +138,5 @@ There are 4 different `README` files for this final project.
 
 
 ## Bonus Goals
-#### See the file marked [README-bonus.md](./README-bonus.md) for extra goals. 
+#### See the file marked [README-bonus.md](./README-bonus.md) for extra goals.
 ##### While these are intended to be extra functionality in the event you complete the initial expectations, I highly encourage everyone to attempt some or all of them.
